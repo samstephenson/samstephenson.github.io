@@ -1,6 +1,14 @@
 .hidden {display: none;}
 
-body, html {height: 100%; position: relative;}
+body, html {height: 100%; position: relative; margin: 0;}
+
+.fullPageWrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -3em;
+	position: relative;
+}
 
 .wrapper {
 	text-align: center;
@@ -9,6 +17,20 @@ body, html {height: 100%; position: relative;}
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 90%;
+}
+
+footer {
+	height: 3em;
+	text-align: center;
+}
+
+footer .fa {
+	font-size: 1.4em;
+	opacity: 0.3;
+	margin: 0 .5em;
+}
+footer .fa:last-child {
+	margin-right: 0;
 }
 
 img.headshot {
@@ -116,4 +138,47 @@ a.button:active {
     background-color: white;
     opacity: 0.6;
     z-index: 100;
+}
+
+/*-------
+---- Tooltips
+--------*/
+
+a.tooltips {
+  position: relative;
+  display: inline;
+  background: none;
+}
+.tooltips:hover .fa {
+	opacity: 0.7;
+}
+a.tooltips span {
+  position: absolute;
+  color: #444;
+  width:300px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  /*border-top: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;*/
+}
+a:hover.tooltips span {
+  opacity: 0.7;
+  visibility: visible;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -150px;
+  z-index: 999;
+  transform: translateY(-2px);
 }
