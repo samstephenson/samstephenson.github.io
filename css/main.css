@@ -140,6 +140,7 @@ a.button:active {
 .featherlight .featherlight-content {
 	width: 80%;
 	padding: 0;
+  border: none;
 }
 
 .backgroundBlur {
