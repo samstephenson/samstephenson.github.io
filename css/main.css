@@ -11,7 +11,6 @@ body, html {height: 100%; position: relative; margin: 0; overflow-x: hidden;}
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2em;
 }
 
 .wrapper {
@@ -21,7 +20,7 @@ body, html {height: 100%; position: relative; margin: 0; overflow-x: hidden;}
 }
 
 footer {
-  margin-top: 2em;
+  margin-top: 3em;
 	height: 3em;
 	text-align: center;
 }
@@ -220,8 +219,9 @@ a:hover.tooltips span {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
   .fullPageWrapper {
-    margin: 0 auto -3em;
+    margin: 0 auto -6em;
   }
 
 }
