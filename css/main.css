@@ -113,7 +113,7 @@ a.button {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	line-height:0;
+	line-height:1em;
     background: none;
 }
 
