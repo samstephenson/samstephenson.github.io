@@ -130,7 +130,7 @@ a.button {
 }
 
 a.button:hover {
-	color: #FF6565;
+	color: #FF4659;
     border-color: #FF6565;
     transform: translateY(-2px);
     -ms-transform: translateY(-2px);
