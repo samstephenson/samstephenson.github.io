@@ -171,7 +171,9 @@ a.button:active {
 a.tooltips {
   position: relative;
   display: inline;
-  background: none;
+  background: none;  
+  transition:0;
+
 }
 .tooltips:hover .fa {
 	opacity: 0.7;
@@ -184,9 +186,7 @@ a.tooltips span {
   line-height: 35px;
   text-align: center;
   opacity: 0;
-  /*visibility: hidden;*/
-  transition: 0.2s ease;
-    
+  /*visibility: hidden;*/    
   bottom: -50px;
   left: 50%;
   margin-left: -150px;
