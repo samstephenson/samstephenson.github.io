@@ -1,6 +1,9 @@
-![Past & Present Publication](/images/Past&Present/Past&Present00001@2x.jpg){: .full-image}
+---
+title: Philosophy for everyone
+---
 
-# Typography Exercise: Past & Present Publication
+
+![Past & Present Publication](/images/Past&Present/Past&Present00001@2x.jpg){: .full-image}
 
 ### The Brief: 
 Create a publication for the Royal Institute of Philosophy, titled ‘Past & Present’, using provided lecture transcripts, biographies and quotes. The publication should embody the Institute’s message, ‘philosophy for everyone’, making the subject accessible and engaging to a wide audience beyond academia.
