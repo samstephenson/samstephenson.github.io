@@ -1,0 +1,238 @@
+.hidden {display: none;}
+
+body, html {height: 100%; position: relative; margin: 0; overflow-x: hidden;}
+
+.fullPageWrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+	text-align: center;
+	width: 90%;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: -7em;
+	height: 7em;
+	text-align: center;
+}
+
+
+
+.socialIcons .fa {
+	font-size: 1.3em;
+	opacity: 0.3;
+	margin: 2em .5em;
+}
+footer .fa:last-child {
+	margin-right: 0;
+}
+
+img.headshot {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #ccc;
+	margin: 1em;
+  border: 3px white solid;
+  box-shadow: 0px 0px 7px 0 #493D3D, 0px 1px 1px 0 #493D3D;
+  transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+}
+
+footer img {
+    width: 60%;
+    max-width: 300px;
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    display: block;
+    margin: auto;
+}
+
+
+body {
+    background-color: white; 
+	font-size: 16px;
+	font-family: 'myriad Pro', 'metaPro', 'ff-meta-web-pro', sans-serif;
+	line-height: 1.6em;
+	color: black;
+    font-weight: 300;
+    letter-spacing: 0.0em
+}
+
+h1 {
+	font-size: 1.2em;
+	margin: 0 0 0.9em;
+    font-weight: normal;
+}
+
+p{
+	margin: 0;
+}
+p .fa {
+    font-size: 0.9em;
+}
+
+sup {
+    font-size: 0.6em;
+    line-height: 0;
+    margin-left: 0.3em;
+}
+a sup {
+    border-bottom: none;
+}
+
+.fa {
+    opacity: 0.8;
+}
+
+a {
+    font-weight: normal;
+	text-decoration: none;
+	color: #444;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 75%);
+  background-image: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 75%);
+  background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 75%);
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 1.3em;
+	transition: 0.1s ease;
+  -webkit-transition: 0.1s ease;
+  -ms-transition: 0.1s ease;
+}
+
+a:hover {
+	opacity: 1;
+	color: #FF6565;
+}
+
+a.button {
+	display: inline-block;
+	margin: 1.5em 0 0.4em;
+	padding: 1em 1.2em;
+	border: 1px #FF6565 solid;
+	border-radius: 30px;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height:1em;
+    background: none;
+}
+
+a.button:hover {
+	color: #FF4659;
+    border-color: #FF6565;
+    transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+}
+a.button:active {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+
+}
+
+.dimmed {
+	opacity: 0.6;
+}
+
+.featherlight .featherlight-content {
+	width: 80%;
+	padding: 0;
+  border: none;
+}
+
+.backgroundBlur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    opacity: 0.6;
+    z-index: 100;
+}
+
+/*-------
+---- Tooltips
+--------*/
+
+a.tooltips {
+  position: relative;
+  display: inline;
+  background: none;  
+  transition:0;
+
+}
+.tooltips:hover .fa {
+	opacity: 0.7;
+}
+a.tooltips span {
+  position: absolute;
+  color: #FF6565;
+  width:300px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  opacity: 0;
+  /*visibility: hidden;*/    
+  bottom: -50px;
+  left: 50%;
+  margin-left: -150px;
+  
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  /*border-top: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;*/
+}
+a:hover.tooltips span {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999;
+  /*transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);*/
+}
+
+@media (min-width: 480px) {
+ 
+  body {
+    font-size: 18px;
+  }
+
+}
+
+@media (min-height: 420px) {
+  
+  .wrapper {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .fullPageWrapper {
+    margin: 0 auto -6em;
+  }
+
+}
