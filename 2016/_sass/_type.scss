@@ -11,14 +11,22 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   letter-spacing: -0.00rem;
+
+  @media (min-width: 30em) {
+    font-size: 2rem;
+  }
 }
 
 h2 {
-  margin-top: 0rem;
+  margin-top: 2rem;
   font-size: 1rem;
+
+  @media (min-width: 30em) {
+    margin-top: 0;
+  }
 }
 
 h3 {
@@ -33,7 +41,7 @@ h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-top: 1rem;
 }
 
 strong {
@@ -41,8 +49,18 @@ strong {
 }
 
 ul, ol, dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: .5rem 0;
+
+  @media (min-width: 30em) {
+    margin: 0;
+  }
+
 }
 
 dt {
