@@ -30,6 +30,10 @@ footer {
 
 section {
   margin: 1.5rem 0;
+
+  @media (min-width: 30em) {
+    margin: 1.3rem 0;
+  }
 }
 
 #vertical-grid-overlay {
