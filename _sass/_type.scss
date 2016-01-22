@@ -4,8 +4,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .0;
-  font-family: "Adelle", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   color: #111;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.01em;
@@ -17,14 +16,15 @@ h1 {
   line-height: 1.2;
 
   @media (min-width: 30em) {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1.125;
   }
 }
 
 h2 {
   margin-top: 2rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  color: #666;
 
   @media (min-width: 30em) {
     margin-top: 0;
@@ -54,23 +54,41 @@ strong {
 }
 
 ul, ol, dl {
-  margin: 0 0 0.65rem 0;
+  margin: 0 0 1.3rem 0;
   padding-left: 0;
   list-style-type: none;
 
   @media (min-width: 30em) {
-    margin: 0 0 0.75rem 0;
+    margin: 0 0 1.5rem 0;
   }
+
+}
+
+ul.links li {
+    padding: .65rem 0 .325rem;
+    margin: 0;
+    border-bottom: #ccc solid 1px;
+
+    &:last-child {
+      border:none;
+    }
+}
+
+.links li a {
+  background: none;
+  text-shadow: none;
 }
 
 li {
   margin: .65rem 0;
 
   @media (min-width: 30em) {
-    margin: 0;
+    margin: .65rem 0;
   }
 
 }
+
+li a {}
 
 dt {
   font-weight: bold;
