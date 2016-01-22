@@ -29,10 +29,10 @@ footer {
 }
 
 section {
-  margin: 1.5rem 0;
+  margin: 4.5rem 0;
 
   @media (min-width: 30em) {
-    margin: 1.3rem 0;
+    margin: 3.9rem 0;
   }
 }
 
@@ -45,4 +45,12 @@ section {
   background: url(../public/vertical-grid.png) repeat;
   background-size: 10px 27px;
   background-position-y: -25px
+}
+
+#homeButton {
+  position: absolute;
+  display: block;
+  padding: .65rem 0 .325rem;
+  border: 1px solid $grey;
+  border-radius: 4px;
 }
