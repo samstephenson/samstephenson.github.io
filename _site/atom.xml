@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.com/atom.xml" rel="self"/>
  <link href="http://samstephenson.com/"/>
- <updated>2016-01-22T11:01:51+00:00</updated>
+ <updated>2016-01-24T12:23:30+00:00</updated>
  <id>http://samstephenson.com</id>
  <author>
    <name>Sam Stephenson</name>
@@ -13,279 +13,164 @@
 
  
  <entry>
-   <title>Philosophy for everyone</title>
-   <link href="http://samstephenson.com/Past&Present.html"/>
-   <updated>2015-12-17T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/Past&Present</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00001@2x.jpg&quot; alt=&quot;Past &amp;amp; Present Publication&quot; class=&quot;full-image&quot; /&gt;&lt;/p&gt;
+   <title>An iOS app for resolving who owes what</title>
+   <link href="http://samstephenson.com/MoneyApp.html"/>
+   <updated>2016-01-22T00:00:00+00:00</updated>
+   <id>http://samstephenson.com/MoneyApp</id>
+   <content type="html">&lt;h4 id=&quot;design-a-digital-product-or-service-to-help-people-manage-group-payments-and-keep-track-of-money-owed-eliminate-the-awkwardness-and-uncertainty-around-lending-money-with-friends&quot;&gt;Design a digital product or service to help people manage group payments and keep track of money owed. Eliminate the awkwardness and uncertainty around lending money with friends.&lt;/h4&gt;
 
-&lt;h3 id=&quot;the-brief&quot;&gt;The Brief:&lt;/h3&gt;
+&lt;h3 id=&quot;challenge-and-scope&quot;&gt;Challenge and scope&lt;/h3&gt;
+&lt;p&gt;Keeping track of who-owes-who-what situations is difficult. Whether it’s paying bills among housemates, settling up for dinner, or borrowing cash from a friend – it’s easy to lose track of things or get in a muddle over money.&lt;/p&gt;
+
+&lt;p&gt;Current DIY solutions – spreadsheets, IOU notes, group noticeboards etc. tend to be one-sided, relying on the diligence and calculations of one individual. Where our money is involved we want certainty that we’re being treated fairly.
+A digital ‘middle man’ service could monitor these exchanges with transparency, mitigating the tensions that usually come with borrowing money. An open and accurate record would remove disputes or inaccuracies over who owes what.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-will-make-it-a-success&quot;&gt;What will make it a success?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lending money between friends and 
+groups becomes a more relaxed and good-natured thing.&lt;/li&gt;
+  &lt;li&gt;Friends feel happy buying things for each other, helping each other out financially.&lt;/li&gt;
+  &lt;li&gt;A person can take responsibility for a bill or payment without worry – knowing they’ll be reimbursed quickly and fully.&lt;/li&gt;
+  &lt;li&gt;Remember: we’re sharing money among friends, not legally binding client invoices. Using the product should be a quick, friendly gesture. An expression of trust. Definitely not a chore!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-survey&quot;&gt;The survey&lt;/h2&gt;
+&lt;p&gt;To understand the full breadth of the problem, I put out a survey among 100 or so fellow students, staff and tutors — asking for their stories, issues and experiences of borrowing money or splitting payments among friends.&lt;/p&gt;
+
+&lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
+&lt;p&gt;Around 80 came back. Most were full of useful insights, figures and anecdotes as well as many common themes and pain points. These could be grouped into independent scenarios where issues arose and the product might intervene:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One-off, group events: Splitting one payment among multiple people.&lt;/li&gt;
+  &lt;li&gt;Recurring, group-based events: House bills, rotas
+Group payment, unequal split: 
+splitting a restaurant bill, each person paying a different amount&lt;/li&gt;
+  &lt;li&gt;1–2–1 transactions: ‘I owe you £x for y’, your round at the pub, picking up the bill for a friend&lt;/li&gt;
+  &lt;li&gt;Long term, large-scale debts: “I owe my 
+family thousands”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;empathy-maps&quot;&gt;Empathy maps&lt;/h2&gt;
+&lt;p&gt;Moving on, I picked out potential user groups from the research and did an empathy mapping exercise for each. Helping to understand users’ different points of view, identify pain points, and think about how I might solve them.&lt;/p&gt;
+
+&lt;h2 id=&quot;personas&quot;&gt;Personas&lt;/h2&gt;
+&lt;p&gt;The empathy maps were developed further into personas. Specific people, potential users of the product — representative of our audience, whose problems encapsulated the key issues surfaced through user research.&lt;/p&gt;
+
+&lt;p&gt;Doing this, I’m able to keep specific people in mind when designing the product. If I’ve successfully solved their problems, theory says I’ll have covered most issues for all of my users.&lt;/p&gt;
+
+&lt;h2 id=&quot;user-journeys&quot;&gt;User Journeys&lt;/h2&gt;
+&lt;p&gt;I then mapped out the personas’ individual tasks – all the steps they’d take to solve their problem and how the app would fit into that. This all helped pin down the range of functions the product would need to fulfil and gave a guide for the information architecture.&lt;/p&gt;
+
+&lt;h2 id=&quot;sketching&quot;&gt;Sketching&lt;/h2&gt;
+
+&lt;h3 id=&quot;messaging-pattern&quot;&gt;Messaging pattern&lt;/h3&gt;
+&lt;p&gt;I decided on a messaging style architecture for the product. Here’s why:
+- People owing money to each other is always essentially a one-to-one relationship. Even if there’s a big payment split among many people, debts will always boil down to X-owes-Y £n.
+- A sequence of ‘I paid for this, she paid for that’ events would naturally then start to resemble a conversation, a back and forth dialog between two people.
+- On your phone, one-to-one relationships with friends almost all live inside messaging apps.
+- The ‘messaging-conversation model’ is well understood by the average smartphone user. Less to learn for first-time users.&lt;/p&gt;
+
+&lt;h1 id=&quot;first-prototypes&quot;&gt;First prototypes&lt;/h1&gt;
+
+&lt;h1 id=&quot;notifications-and-reminders&quot;&gt;Notifications and reminders&lt;/h1&gt;
+
+&lt;h3 id=&quot;handling-reminders&quot;&gt;Handling reminders&lt;/h3&gt;
+&lt;p&gt;One of the key findings from research was that most of the tension and awkwardness in relationships came from having to chase friends up or deal with someone who’d forgotten to pay you back. Nobody likes to have to ask a friend for money — you feel like you’re showing a lack of trust, they feel guilty for letting a friend down.&lt;/p&gt;
+
+&lt;p&gt;An app would be ideally placed to deal with this — acting as a neutral ‘middle man’ to deal with chasing up and asking for money in a much less personal way.&lt;/p&gt;
+
+&lt;h3 id=&quot;hello-debtbot&quot;&gt;hello, DebtBot&lt;/h3&gt;
+&lt;p&gt;So why not personify this ‘middle man’ character into the product? A ‘dumb AI’ of sorts, to help you keep on top of your debts to friends and ensure you pay up well before any feelings turn sour. I’ve called it DebtBot for now… it’ll have a proper name soon enough.&lt;/p&gt;
+
+&lt;p&gt;I first explored the idea of DebtBot having its own home within the app. A separate screen you’d visit for notifications and reminders around paying your friends. On reflection however, and after trying the idea out on friends, it felt odd having such reminders separate from the context of the relationship it referred to. Instead, I moved it inline with each relationship.&lt;/p&gt;
+
+&lt;h2 id=&quot;visual-language--thoughts&quot;&gt;Visual language – thoughts&lt;/h2&gt;
+
+&lt;h3 id=&quot;when-one-person-owes-another-money&quot;&gt;When one person owes another money…&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;There’s a bond between them – it’s a symbol of trust and friendship&lt;/li&gt;
+  &lt;li&gt;There is tension (potential energy?)&lt;/li&gt;
+  &lt;li&gt;There’s an inequality that wants to be resolved
+Starts out good-willed – doing someone a favour (should be encouraged)&lt;/li&gt;
+  &lt;li&gt;This sense of balance, energy and motion might play with these dynamics through visuals and animation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;security&quot;&gt;Security&lt;/h3&gt;
+&lt;p&gt;With anything dealing with your money, you want to feel secure. Even if my product never handles real money, users should feel that theirs is safe.&lt;/p&gt;
+
+&lt;h3 id=&quot;healthy-relationships&quot;&gt;Healthy relationships&lt;/h3&gt;
+&lt;p&gt;When two people owe each other money they’re effectively bound together until the debt is settled. If they both pull their weight in the relationship, taking turns to pay for things, the balance of who-owes-who should naturally swing back and forth, like two friends on a seesaw. This healthy back and forth should be encouraged.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-debtbots-personality&quot;&gt;Use DebtBot’s personality&lt;/h3&gt;
+&lt;p&gt;DebtBot will have a visual presence in the product, and its personality could be tailored to complement the overall product visual language. For example – a more irreverant, dry humoured DebtBot could offset and humanise a neutral, security minded overall product.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-room-for-play&quot;&gt;Make room for play&lt;/h3&gt;
+&lt;p&gt;This a place for friends to be friends. Make them feel comfortable, fool around a little. It shouldn’t take itself too seriously.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Philosophy for everyone</title>
+   <link href="http://samstephenson.com/Past-and-Present.html"/>
+   <updated>2016-01-21T00:00:00+00:00</updated>
+   <id>http://samstephenson.com/Past-and-Present</id>
+   <content type="html">&lt;h4 id=&quot;past--present-a-typographic-publication-presenting-lecture-transcripts-from-the-royal-insititue-of-philosophy&quot;&gt;&lt;em&gt;Past &amp;amp; Present&lt;/em&gt;: A typographic publication presenting lecture transcripts from the Royal Insititue of Philosophy.&lt;/h4&gt;
+
+&lt;section&gt;
+	&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00001@2x.jpg&quot; alt=&quot;pastandpresent&quot; /&gt;
+&lt;/section&gt;
+
+&lt;h2 id=&quot;the-brief&quot;&gt;The Brief:&lt;/h2&gt;
 &lt;p&gt;Create a publication for the Royal Institute of Philosophy, titled ‘Past &amp;amp; Present’, using provided lecture transcripts, biographies and quotes. The publication should embody the Institute’s message, ‘philosophy for everyone’, making the subject accessible and engaging to a wide audience beyond academia.&lt;/p&gt;
 
-&lt;h3 id=&quot;solution-capture-the-spirit-of-a-live-event&quot;&gt;Solution: Capture the spirit of a live event&lt;/h3&gt;
+&lt;h2 id=&quot;solution-capture-the-spirit-of-a-live-event&quot;&gt;Solution: Capture the spirit of a live event&lt;/h2&gt;
 &lt;p&gt;The content comprises a series of lecture transcripts from a single event. Encapsulate the spirit of this event within the design of the publication, making readers feel as if they were in the room with the speaker, reliving the event for themselves.&lt;/p&gt;
 
-&lt;p&gt;The book is printed monochrome in a rich blue/purple, accompanied by stuck-in 6x4 photo prints of the event. It is set in Baskerville and Akzidenz Grotesk – a juxtaposition of old and new to reflect the Past &amp;amp; Present theme.&lt;/p&gt;
+&lt;p&gt;The book is printed monochrome in a rich cobalt, accompanied by stuck-in 6x4 photo prints of the event. It is set in Baskerville and Akzidenz Grotesk – a juxtaposition of old and new to reflect the Past &amp;amp; Present theme.&lt;/p&gt;
 
 &lt;p&gt;Publication is split into two sections: lecture transcripts and biographies – signified by a change in paper stock.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00001@2x.jpg&quot; alt=&quot;Past &amp;amp; Present Publication&quot; class=&quot;full-image&quot; /&gt;
-&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00002@2x.jpg&quot; alt=&quot;Past &amp;amp; Present Publication&quot; class=&quot;full-image&quot; /&gt;
-&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00003@2x.jpg&quot; alt=&quot;Past &amp;amp; Present Publication&quot; class=&quot;full-image&quot; /&gt;
-&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00004@2x.jpg&quot; alt=&quot;Past &amp;amp; Present Publication&quot; class=&quot;full-image&quot; /&gt;
-&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00005@2x.jpg&quot; alt=&quot;Past &amp;amp; Present Publication&quot; class=&quot;full-image&quot; /&gt;
-&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00006@2x.jpg&quot; alt=&quot;Past &amp;amp; Present Publication&quot; class=&quot;full-image&quot; /&gt;&lt;/p&gt;
+&lt;section&gt;
+	&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00002@2x.jpg&quot; alt=&quot;pastandpresent&quot; /&gt;
+	&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00003@2x.jpg&quot; alt=&quot;pastandpresent&quot; /&gt;
+	&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00004@2x.jpg&quot; alt=&quot;pastandpresent&quot; /&gt;
+	&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00005@2x.jpg&quot; alt=&quot;pastandpresent&quot; /&gt;
+	&lt;img src=&quot;/images/Past&amp;amp;Present/Past&amp;amp;Present00006@2x.jpg&quot; alt=&quot;pastandpresent&quot; /&gt;
+&lt;/section&gt;
 </content>
  </entry>
  
  <entry>
-   <title>What's Jekyll?</title>
-   <link href="http://samstephenson.com/whats-jekyll.html"/>
-   <updated>2015-11-12T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/whats-jekyll</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+   <title>Stories from Luckington</title>
+   <link href="http://samstephenson.com/Luckington.html"/>
+   <updated>2016-01-20T00:00:00+00:00</updated>
+   <id>http://samstephenson.com/Luckington</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/sam2.jpg&quot; alt=&quot;That’s me&quot; class=&quot;full-image&quot; /&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool. Find out more by &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last night for dinner I had fried vegetables - specifically potatoes, tomatoes, mushrooms and spinach. It was satisfying, but only fairly tasty. I think perhaps a larger dose of seasoning and maybe some fresh green beans would have been helpful. With that I drank tea. I had porridge for breakfast.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Introducing Poole</title>
-   <link href="http://samstephenson.com/introducing-poole.html"/>
-   <updated>2014-01-02T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/introducing-poole</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
+   <title>Branding Bitcoin for the developing world</title>
+   <link href="http://samstephenson.com/Bitcoin.html"/>
+   <updated>2016-01-19T00:00:00+00:00</updated>
+   <id>http://samstephenson.com/Bitcoin</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/sam2.jpg&quot; alt=&quot;That’s me&quot; class=&quot;full-image&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;p&gt;Poole is the butler for &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, the static site generator. It’s designed and developed by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example templates, pages, posts, and styles.&lt;/p&gt;
-
-&lt;p&gt;There are currently two themes built on Poole:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://hyde.getpoole.com&quot;&gt;Hyde&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lanyon.getpoole.com&quot;&gt;Lanyon&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&quot;https://github.com/poole&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;whats-included&quot;&gt;What’s included&lt;/h3&gt;
-
-&lt;p&gt;Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it, includes the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404.html&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
-  &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
-  &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
-  &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
-  &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Additional features are available in individual themes.&lt;/p&gt;
-
-&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
-
-&lt;p&gt;Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
-
-&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
-
-&lt;p&gt;Poole is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;p&gt;Last night for dinner I had fried vegetables - specifically potatoes, tomatoes, mushrooms and spinach. It was satisfying, but only fairly tasty. I think perhaps a larger dose of seasoning and maybe some fresh green beans would have been helpful. With that I drank tea. I had porridge for breakfast.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Example content</title>
-   <link href="http://samstephenson.com/example-content.html"/>
-   <updated>2014-01-01T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/example-content</id>
-   <content type="html">&lt;div class=&quot;message&quot;&gt;
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-&lt;/div&gt;
+   <title>Photography</title>
+   <link href="http://samstephenson.com/Photos.html"/>
+   <updated>2016-01-18T00:00:00+00:00</updated>
+   <id>http://samstephenson.com/Photos</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/sam2.jpg&quot; alt=&quot;That’s me&quot; class=&quot;full-image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
-
-&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt;
-
-&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
-  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
-
-&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
-
-&lt;p&gt;Footnotes are supported as part of the Markdown syntax. Here’s one in action. Clicking this number&lt;sup id=&quot;fnref:fn-sample_footnote&quot;&gt;&lt;a href=&quot;#fn:fn-sample_footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; will lead you to a footnote. The syntax looks like:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Clicking this number[^fn-sample_footnote]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Each footnote needs the &lt;code class=&quot;highlighter-rouge&quot;&gt;^fn-&lt;/code&gt; prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;[^fn-sample_footnote]: Handy! Now click the return link to go back.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.&lt;/p&gt;
-
-&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
-
-&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Inline code is available with the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console
-&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments
-&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;return a + b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Call the function
-&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You may also optionally show code snippets with line numbers. Add &lt;code class=&quot;highlighter-rouge&quot;&gt;linenos&lt;/code&gt; to the Pygments tags.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console
-&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments
-&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;return a + b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Call the function
-&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
-
-&lt;h3 id=&quot;gists-via-github-pages&quot;&gt;Gists via GitHub Pages&lt;/h3&gt;
-
-&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;/p&gt;
-
-&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
-
-&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
-  &lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
-  &lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
-  &lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
-  &lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
-  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
-
-  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
-  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
-
-  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
-  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
-
-&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
-
-&lt;p&gt;Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot; /&gt;
-&lt;img src=&quot;http://placehold.it/400x200&quot; alt=&quot;placeholder&quot; title=&quot;Medium example image&quot; /&gt;
-&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;placeholder&quot; title=&quot;Small example image&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Upvotes&lt;/th&gt;
-      &lt;th&gt;Downvotes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Totals&lt;/td&gt;
-      &lt;td&gt;21&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Alice&lt;/td&gt;
-      &lt;td&gt;10&lt;/td&gt;
-      &lt;td&gt;11&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bob&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Charlie&lt;/td&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;9&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:fn-sample_footnote&quot;&gt;
-      &lt;p&gt;Handy! Now click the return link to go back. &lt;a href=&quot;#fnref:fn-sample_footnote&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
+&lt;p&gt;Last night for dinner I had fried vegetables - specifically potatoes, tomatoes, mushrooms and spinach. It was satisfying, but only fairly tasty. I think perhaps a larger dose of seasoning and maybe some fresh green beans would have been helpful. With that I drank tea. I had porridge for breakfast.&lt;/p&gt;
 </content>
  </entry>
  

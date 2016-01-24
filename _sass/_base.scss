@@ -2,8 +2,9 @@
 //
 // Update the foundational and global aspects of the page.
 
-$accentColor: red;
+$accentColor: #292D78;
 $grey: #ccc;
+$colWidth: 32rem;
 
 * {
   -webkit-box-sizing: border-box;
@@ -19,7 +20,7 @@ body {
 }
 
 html {
-  font-family: "Adelle Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Alegreya sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 1.5;
@@ -111,8 +112,7 @@ a.homeButton {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
+  padding: 0 .65rem .65rem;
 }
 
 table {
