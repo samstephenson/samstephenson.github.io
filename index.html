@@ -11,14 +11,16 @@ title: Home
 </section>
 
 <section>
-  <h2>Projects</h2>
+  <small>Projects</small>
   <ul class="links">
-    <li><a href="https://medium.com/@samstephenson1/who-owes-who-what-d9c67ecbd62e#.9f4yjwlzd" title="Read case study on Medium" target="new">Building an iOS app to help friends track money owed</a></li>
-    <li><a href="https://www.behance.net/gallery/32196617/Bitcoin-You-Empowered" target="new">Branding Bitcoin for the developing world</a></li>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    <!--<li><a href="https://www.behance.net/gallery/32196617/Bitcoin-You-Empowered" target="new">Branding Bitcoin for the developing world</a></li>
     <li><a href="https://www.behance.net/gallery/32190565/Past-Present-typographic-publication" target="new">Philosophy for Everyone: a typographic publication</a></li>
     <li><a href="https://www.behance.net/gallery/20392877/Cold-Water-Swimming" target="new">Photography: Cold Water Swimmers</a>
     <li><a href="https://www.behance.net/gallery/15515889/South-Hitchhiking-California" target="new">SOUTH: Hitchiking California</a></li>
-    <li><a href="https://www.behance.net/gallery/15515377/Cookie-Sans-Typeface" target="new">Cookie Sans: A sweet-toothed typeface</a></li>
+    <li><a href="https://www.behance.net/gallery/15515377/Cookie-Sans-Typeface" target="new">Cookie Sans: A sweet-toothed typeface</a></li>-->
+    {% endfor %}
   </ul>
 </section>
 <!--

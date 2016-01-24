@@ -1,6 +1,6 @@
 ---
-layout: page
-title: 
+layout: portfolio
+title: Stories from Luckington
 ---
 
 ![That’s me](/images/sam2.jpg){: .full-image}
