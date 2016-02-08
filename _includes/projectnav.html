@@ -1,0 +1,15 @@
+
+<div class="projectWrapper">
+	<small class="projectHeader">PROJECTS</small>
+
+	<ul class="projectNav">
+	  {% for post in site.categories['work'] %}
+	    <li {% if post.url == page.url %} class="active" {% endif %}>
+	      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	    </li>
+	    <span class="divider"></span>
+	  {% endfor %}
+	</ul>
+	<button class="scrollLeft"></button>
+	<button class="scrollRight"></button>
+</div>
