@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.com/atom.xml" rel="self"/>
  <link href="http://samstephenson.com/"/>
- <updated>2016-02-08T22:53:49+00:00</updated>
+ <updated>2016-02-08T23:01:27+00:00</updated>
  <id>http://samstephenson.com</id>
  <author>
    <name>Sam Stephenson</name>
@@ -210,7 +210,7 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
 
 &lt;h2 id=&quot;bitcoin-coinagents&quot;&gt;Bitcoin CoinAgents&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/003-bitcoin/shopfront.jpg&quot; alt=&quot;Bitcoin CoinAgent&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/003-Bitcoin/shopfront.jpg&quot; alt=&quot;Bitcoin CoinAgent&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To bridge the gap between current cash economies and new digital currency, a network of ‘CoinAgents’ would allow people to easily exchange their cash for Bitcoin. Customers simply hand over cash and receive the equivalent Bitcoin, via SMS or a printed voucher.&lt;/p&gt;
 
@@ -222,7 +222,7 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
 &lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
 
 &lt;div&gt;
-&lt;img src=&quot;/images/003-bitcoin/leaflet.jpg&quot; alt=&quot;Introduction to Bitcoin handout&quot; class=&quot;wide&quot; /&gt;
+&lt;img src=&quot;/images/003-Bitcoin/leaflet.jpg&quot; alt=&quot;Introduction to Bitcoin handout&quot; class=&quot;wide&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;To introduce people to the potential of Bitcoin, I designed a leaflet to be handed out at points-of-sale and other touchpoints. The language is crafted to quickly clarify the benefits of digital currency and make signing up as easy as possible. Informal copy, newsprint paper and hand-drawn illustrations give it a helpful, approachable feel.&lt;/p&gt;
@@ -233,11 +233,11 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
 &lt;p&gt;Special messages are tailored towards small businesses. The printed mats, for example, serve as a metaphor for people literally building their business upon Bitcoin.&lt;/p&gt;
 
 &lt;div&gt;
-&lt;img src=&quot;/images/003-bitcoin/environmental1.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
-&lt;img src=&quot;/images/003-bitcoin/environmental2.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
-&lt;img src=&quot;/images/003-bitcoin/environmental3.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
-&lt;img src=&quot;/images/003-bitcoin/environmental4.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
-&lt;img src=&quot;/images/003-bitcoin/environmental5.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;images/003-Bitcoin/environmental1.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;images/003-Bitcoin/environmental2.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;images/003-Bitcoin/environmental3.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;images/003-Bitcoin/environmental4.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;images/003-Bitcoin/environmental5.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
 &lt;/div&gt;
 </content>
  </entry>
