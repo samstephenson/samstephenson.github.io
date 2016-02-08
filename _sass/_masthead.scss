@@ -17,6 +17,11 @@
   display: inline-block;
   font-family: $fontUI;
   font-weight: 600;
+  font-size: 1rem;
+
+  @media (min-width: 38rem) {
+    font-size: 1.2rem;
+  }
 
   a {
     color: black;
