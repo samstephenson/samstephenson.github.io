@@ -2,8 +2,9 @@
 //
 // Update the foundational and global aspects of the page.
 
-$accentColor: red;
+$accentColor: #ff3333;
 $grey: #ccc;
+$colWidth: 32rem;
 
 * {
   -webkit-box-sizing: border-box;
@@ -111,8 +112,7 @@ a.homeButton {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
+  padding: 0 .65rem .65rem;
 }
 
 table {
