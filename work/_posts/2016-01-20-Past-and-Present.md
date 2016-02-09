@@ -3,8 +3,8 @@ layout: portfolio
 title: Past & Present publication
 status: Completed 2015
 tags: print typography
-img: /images/002-Past-Present/PastPresent01.jpg
-thumb: /images/002-Past-Present/thumb.png
+img: /images/past-present/pastpresent01.jpg
+thumb: /images/past-present/thumb.png
 
 ---
 
@@ -23,9 +23,9 @@ The book is printed in a single, rich cobalt ink, designed to feel prestigious a
 Publication is split into two sections: lecture transcripts and biographies – signified by a change in paper stock.
 
 <section>
-	<img src="/images/002-Past-Present/PastPresent02@2x.jpg" alt="pastandpresent" class="full">
-	<img src="/images/002-Past-Present/PastPresent03@2x.jpg" alt="pastandpresent" class="full">
-	<img src="/images/002-Past-Present/PastPresent04@2x.jpg" alt="pastandpresent" class="full">
-	<img src="/images/002-Past-Present/PastPresent05@2x.jpg" alt="pastandpresent" class="full">
-	<img src="/images/002-Past-Present/PastPresent06@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent02@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent03@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent04@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent05@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent06@2x.jpg" alt="pastandpresent" class="full">
 </section>
