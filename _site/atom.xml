@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Sam Stephenson</title>
- <link href="http://samstephenson.com/atom.xml" rel="self"/>
- <link href="http://samstephenson.com/"/>
- <updated>2016-02-09T12:26:25+00:00</updated>
- <id>http://samstephenson.com</id>
+ <link href="http://samstephenson.github.io/atom.xml" rel="self"/>
+ <link href="http://samstephenson.github.io/"/>
+ <updated>2016-02-09T20:12:17+00:00</updated>
+ <id>http://samstephenson.github.io</id>
  <author>
    <name>Sam Stephenson</name>
    <email>sam@stephenson.net</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>An iOS app for resolving who owes what</title>
-   <link href="http://samstephenson.com/work/MoneyApp.html"/>
+   <link href="http://samstephenson.github.io/work/MoneyApp.html"/>
    <updated>2016-01-22T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/work/MoneyApp</id>
+   <id>http://samstephenson.github.io/work/MoneyApp</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Keeping track of who-owes-who-what&lt;/strong&gt; situations is difficult. Paying bills among housemates, settling up for dinner, or borrowing cash from a friend – it’s easy to lose track of things or get in a muddle over money.&lt;/p&gt;
 
 &lt;p&gt;Current solutions – spreadsheets, IOU notes, group noticeboards etc., tend to be one-sided, relying on the diligence and calculations of one individual. Where our money is involved we want certainty we’re being treated fairly. A digital ‘middle man’ service could monitor these exchanges with transparency, mitigating the tensions that usually come with borrowing money. An open and accurate record would remove disputes or inaccuracies over who owes what.&lt;/p&gt;
@@ -35,7 +35,7 @@
 
 &lt;h2 id=&quot;user-research&quot;&gt;User research&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/001-money-app/user-research.jpg&quot; alt=&quot;Money app user survey&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/money-app/user-research.jpg&quot; alt=&quot;Money app user survey&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;initial-survey&quot;&gt;Initial survey&lt;/h3&gt;
 &lt;p&gt;To better understand the problem, I put out a survey among 100 or so fellow students, staff and tutors — asking for their stories, issues and experiences of borrowing money or splitting payments among friends.&lt;/p&gt;
@@ -51,7 +51,7 @@
 
 &lt;h3 id=&quot;empathy-maps&quot;&gt;Empathy maps&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/001-money-app/empathy-map-web.png&quot; alt=&quot;Money app empathy maps&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/money-app/empathy-map-web.png&quot; alt=&quot;Money app empathy maps&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Moving on, I picked out potential user groups from the research and did an empathy mapping exercise for each. Helping to understand users’ different points of view, identify pain points, and think about how I might solve them.&lt;/p&gt;
 
@@ -59,7 +59,7 @@
 
 &lt;h3 id=&quot;personas&quot;&gt;Personas&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/001-money-app/personas.png&quot; alt=&quot;User personas&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/money-app/personas.png&quot; alt=&quot;User personas&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The empathy maps were developed further into personas. Specific people, potential users of the product — representative of our audience, whose problems encapsulated the key issues surfaced through user research.&lt;/p&gt;
 
@@ -85,13 +85,13 @@
 
 &lt;h3 id=&quot;new-one-to-one-event&quot;&gt;New one-to-one event&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/001-money-app/flow-New-event-phone.gif&quot; alt=&quot;adding a new one-to-one event&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/money-app/flow-new-event-phone.gif&quot; alt=&quot;adding a new one-to-one event&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Jack went shopping and picked up some cleaning stuff for my room. I owe him £1.25&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;new-event-in-group&quot;&gt;New event in group&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/001-money-app/flow-New-group-event.gif&quot; alt=&quot;adding a bill to a group&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/money-app/flow-new-group-event.gif&quot; alt=&quot;adding a bill to a group&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Jackie has been shopping for a house dinner in ASDA. She wants to split the cost among all housemates&lt;/em&gt;.&lt;/p&gt;
 
@@ -104,11 +104,11 @@
 
 &lt;p&gt;So why not personify this ‘middle man’ character in the product? A ‘dumb AI’ of sorts, to help you keep on top of your debts to friends and ensure you pay up well before any feelings turn sour. I’ve called it DebtBot for now… it’ll have a proper name soon enough.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/001-money-app/debtbot.png&quot; alt=&quot;Debtbot implemented in-app&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/money-app/debtbot.png&quot; alt=&quot;Debtbot implemented in-app&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I first explored the idea of DebtBot having its own home within the app. A separate screen you’d visit for notifications and reminders around paying your friends. On reflection however, and after trying the idea out on friends, it felt odd having such reminders separate from the context of the relationship it referred to. Instead, I moved it inline with each relationship.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/001-money-app/sidekicks.jpg&quot; alt=&quot;Debtbot – your financial sidekick&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/money-app/sidekicks.jpg&quot; alt=&quot;Debtbot – your financial sidekick&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;DebtBot should act like a trusty sidekick, or organised personal assistant. It’s got your back – keeping on top of debts, and will chase after friends that have forgotten to pay you back. Its trustworthy, amiable personality should come across in its tone of voice, both visually and when it’s speaking to you.&lt;/p&gt;
 
@@ -116,7 +116,7 @@
 
 &lt;h3 id=&quot;when-one-person-owes-another-money&quot;&gt;When one person owes another money…&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/001-money-app/doodles-web.png&quot; alt=&quot;money-owed dynamics&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/money-app/doodles-web.png&quot; alt=&quot;money-owed dynamics&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;There’s a bond between them – it’s a symbol of trust and friendship&lt;/li&gt;
@@ -140,10 +140,39 @@
  </entry>
  
  <entry>
+   <title>Past & Present publication</title>
+   <link href="http://samstephenson.github.io/work/Past-and-Present.html"/>
+   <updated>2016-01-20T00:00:00+00:00</updated>
+   <id>http://samstephenson.github.io/work/Past-and-Present</id>
+   <content type="html">&lt;h2 id=&quot;the-brief&quot;&gt;The Brief&lt;/h2&gt;
+&lt;p&gt;Create an event publication for the Royal Institute of Philosophy’s Past &amp;amp; Present series, using the provided lecture transcripts, biographies and quotes. 
+The publication should embody the Institute’s message, ‘philosophy for everyone’, making the subject accessible and engaging to a wide audience beyond academia.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Capture the spirit of a live event&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The content provided is a series of lecture transcripts. I wanted to encapsulate the experience of those live lectures within the design of the publication – making readers feel as if they were in the room with the speaker, reliving the event for themselves.&lt;/p&gt;
+
+&lt;h3 id=&quot;craft&quot;&gt;Craft&lt;/h3&gt;
+&lt;p&gt;The book is printed in a single, rich cobalt ink, designed to feel prestigious and envelope the reader in the words of the lecturers. The type is set in Baskerville and Akzidenz Grotesk – a juxtaposition of old England and new modernism to reflect the Past &amp;amp; Present theme.&lt;/p&gt;
+
+&lt;p&gt;Publication is split into two sections: lecture transcripts and biographies – signified by a change in paper stock.&lt;/p&gt;
+
+&lt;section&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent02@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent03@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent04@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent05@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent06@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+&lt;/section&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Branding Bitcoin for the developing world</title>
-   <link href="http://samstephenson.com/work/Bitcoin.html"/>
-   <updated>2016-01-21T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/work/Bitcoin</id>
+   <link href="http://samstephenson.github.io/work/Bitcoin.html"/>
+   <updated>2016-01-20T00:00:00+00:00</updated>
+   <id>http://samstephenson.github.io/work/Bitcoin</id>
    <content type="html">&lt;p&gt;Bitcoin is a new way of doing money – and as a currency it is slowly maturing. But fundamentally it is a system born in the gloomy world of hacker forums, built on complex cryptography beyond the comprehension of most ordinary folk.&lt;/p&gt;
 
 &lt;p&gt;To achieve mainstream success, Bitcoin must learn to speak human, make itself accessible and useful to ordinary people and grow up and out from its hacker roots. Once it does, it has the potential to revolutionise the world of finance and affect the lives of billions.&lt;/p&gt;
@@ -151,7 +180,7 @@
 &lt;h3 id=&quot;who-will-benefit-most&quot;&gt;Who will benefit most?&lt;/h3&gt;
 
 &lt;div&gt;
-&lt;img src=&quot;../images/003-bitcoin/developed-land.png&quot; alt=&quot;Where can bitcoin make a difference?&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;/images/bitcoin/developed-land.png&quot; alt=&quot;Where can bitcoin make a difference?&quot; class=&quot;full&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Here in the developed world, over 95% of us own a bank account, and are comfortable with that. For us, I’m not yet sure there’s a compelling case for adopting Bitcoin. In the developing world however, it’s a different story. Around 50% of the world doesn’t have a bank account – for them Bitcoin could actually be an opportunity – to leapfrog the West and lead the world with the future of currency.&lt;/p&gt;
@@ -162,7 +191,7 @@
 &lt;p&gt;Bitcoin can help solve this. Its democratic and decentralised nature unties people from corruption and can help them take control of their finances. Money becomes a tool for self-improvement, not a weight to shackle you down.&lt;/p&gt;
 
 &lt;h2 id=&quot;introducing&quot;&gt;Introducing…&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;../images/003-bitcoin/bitcoin-banner.png&quot; alt=&quot;Bitcoin: you empowered&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/bitcoin/bitcoin-banner.png&quot; alt=&quot;Bitcoin: you empowered&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;values&quot;&gt;Values&lt;/h3&gt;
 
@@ -181,7 +210,7 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
 
 &lt;h2 id=&quot;bitcoin-coinagents&quot;&gt;Bitcoin CoinAgents&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/003-Bitcoin/shopfront.jpg&quot; alt=&quot;Bitcoin CoinAgent&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/bitcoin/shopfront.jpg&quot; alt=&quot;Bitcoin CoinAgent&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To bridge the gap between current cash economies and new digital currency, a network of ‘CoinAgents’ would allow people to easily exchange their cash for Bitcoin. Customers simply hand over cash and receive the equivalent Bitcoin, via SMS or a printed voucher.&lt;/p&gt;
 
@@ -193,7 +222,7 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
 &lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
 
 &lt;div&gt;
-&lt;img src=&quot;../images/003-Bitcoin/leaflet.jpg&quot; alt=&quot;Introduction to Bitcoin handout&quot; class=&quot;wide&quot; /&gt;
+&lt;img src=&quot;/images/bitcoin/leaflet.jpg&quot; alt=&quot;Introduction to Bitcoin handout&quot; class=&quot;wide&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;To introduce people to the potential of Bitcoin, I designed a leaflet to be handed out at points-of-sale and other touchpoints. The language is crafted to quickly clarify the benefits of digital currency and make signing up as easy as possible. Informal copy, newsprint paper and hand-drawn illustrations give it a helpful, approachable feel.&lt;/p&gt;
@@ -204,49 +233,20 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
 &lt;p&gt;Special messages are tailored towards small businesses. The printed mats, for example, serve as a metaphor for people literally building their business upon Bitcoin.&lt;/p&gt;
 
 &lt;div&gt;
-&lt;img src=&quot;../images/003-Bitcoin/environmental1.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
-&lt;img src=&quot;../images/003-Bitcoin/environmental2.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
-&lt;img src=&quot;../images/003-Bitcoin/environmental3.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
-&lt;img src=&quot;../images/003-Bitcoin/environmental4.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
-&lt;img src=&quot;../images/003-Bitcoin/environmental5.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;/images/bitcoin/environmental1.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;/images/bitcoin/environmental2.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;/images/bitcoin/environmental3.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;/images/bitcoin/environmental4.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
+&lt;img src=&quot;/images/bitcoin/environmental5.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
 &lt;/div&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Past & Present publication</title>
-   <link href="http://samstephenson.com/work/Past-and-Present.html"/>
-   <updated>2016-01-20T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/work/Past-and-Present</id>
-   <content type="html">&lt;h2 id=&quot;the-brief&quot;&gt;The Brief&lt;/h2&gt;
-&lt;p&gt;Create an event publication for the Royal Institute of Philosophy’s Past &amp;amp; Present series, using the provided lecture transcripts, biographies and quotes. 
-The publication should embody the Institute’s message, ‘philosophy for everyone’, making the subject accessible and engaging to a wide audience beyond academia.&lt;/p&gt;
-
-&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Capture the spirit of a live event&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The content provided is a series of lecture transcripts. I wanted to encapsulate the experience of those live lectures within the design of the publication – making readers feel as if they were in the room with the speaker, reliving the event for themselves.&lt;/p&gt;
-
-&lt;h3 id=&quot;craft&quot;&gt;Craft&lt;/h3&gt;
-&lt;p&gt;The book is printed in a single, rich cobalt ink, designed to feel prestigious and envelope the reader in the words of the lecturers. The type is set in Baskerville and Akzidenz Grotesk – a juxtaposition of old England and new modernism to reflect the Past &amp;amp; Present theme.&lt;/p&gt;
-
-&lt;p&gt;Publication is split into two sections: lecture transcripts and biographies – signified by a change in paper stock.&lt;/p&gt;
-
-&lt;section&gt;
-	&lt;img src=&quot;/images/002-Past-Present/PastPresent02@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/002-Past-Present/PastPresent03@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/002-Past-Present/PastPresent04@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/002-Past-Present/PastPresent05@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/002-Past-Present/PastPresent06@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-&lt;/section&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Jack Beck Painting Courses website</title>
-   <link href="http://samstephenson.com/work/Jack-Beck.html"/>
+   <link href="http://samstephenson.github.io/work/Jack-Beck.html"/>
    <updated>2016-01-18T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/work/Jack-Beck</id>
+   <id>http://samstephenson.github.io/work/Jack-Beck</id>
    <content type="html">&lt;p&gt;My Grandma’s company, Jack Beck, has been a popular provider of art courses and holidays for over 15 years. From their picturesque location in the Yorkshire Dales, they host multi-day courses taught by leading British artists.&lt;/p&gt;
 
 &lt;p&gt;I redesigned their site back in 2011. It’s a Wordpress site adapted from an existing theme, designed to showcase the courses on offer and the stunning location, as well as making booking clear and easy.&lt;/p&gt;
@@ -257,9 +257,9 @@ The publication should embody the Institute’s message, ‘philosophy for every
  
  <entry>
    <title>Amber Business website</title>
-   <link href="http://samstephenson.com/work/Amber-Business.html"/>
+   <link href="http://samstephenson.github.io/work/Amber-Business.html"/>
    <updated>2016-01-17T00:00:00+00:00</updated>
-   <id>http://samstephenson.com/work/Amber-Business</id>
+   <id>http://samstephenson.github.io/work/Amber-Business</id>
    <content type="html">&lt;p&gt;Amber Business is a small business consultancy and financial directors based in the South West of England. They asked for a new website to better communicate what they do to prospective customers, and to drive new enquiries.&lt;/p&gt;
 
 &lt;p&gt;Together with Michael, the owner, we decided on a design which talks the user through his proposition. Communicating the value he could provide whilst retaining a healthy dose of his personality.&lt;/p&gt;
