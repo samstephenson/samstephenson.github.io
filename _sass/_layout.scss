@@ -55,6 +55,7 @@ footer {
 	}
 
 	img {
+		margin: 2.7rem auto .9rem;
 		width: auto;
 		padding: 0;
 		max-width: $colWidth - 4rem;
@@ -66,19 +67,19 @@ footer {
 	}
 
 	ul, ol, dl {
-		padding-left: 2rem;
+		padding-left: 2.7rem;
 	}
 
 	@media (min-width: 30em) {
     
 		.wide {
-			margin: 4rem auto;
+			margin: 3.6rem auto;
 			max-width: $wideWidth;
 		}
 		.full {
 			max-width: 100%;
 			max-height: 100%;
-			margin: 2rem auto;
+			margin: 0.9rem auto;
 			padding-left: 0;
 			padding-right: 0;
 		}
@@ -97,33 +98,57 @@ footer {
 ul.homepageProjects  {
 
 	padding: 0;
-	margin: 1rem 0;
+	margin: 3rem 0;
 
 	li {
+		width: 100%;
 		vertical-align: top;	
-		max-width: ($colWidth - 6) / 2 ;
+		max-width: ($colWidth - 4) / 2 ;
 		display: inline-block;
 		font: $typeUI $fontUI;
+		margin-bottom: 4rem;
 
 		&:nth-child(2n) {
 				margin-right: 0;
 		}
 
 		img {
+			margin: 0;
 			width: 100%;
-			margin: .5rem 0;
+			position: absolute;
+ 			-webkit-transition: 0.1s ease;
+			transition: 0.1s ease;
+			top: 0;
+			left: 0;
 		}
 
 		a {
 			color: black;
 		}
 
+		a:hover {
+			text-decoration: underline;
+
+			img {
+				-webkit-transform: scale(1.02);
+  				transform: scale(1.02);
+			}
+		}
+
 	}
 
 	@media (min-width: 30em) {
 		li {
-			margin-right: 1rem;
+			margin-right: 1.2rem;
 		}
 	}
 
+}
+
+.zoomContainer {
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 .8rem 0;
+	width: inherit;
+	height: 9.5rem;
 }

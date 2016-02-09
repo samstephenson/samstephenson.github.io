@@ -76,13 +76,18 @@ a {
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: none;
+    text-decoration: underline;
     color: #0593ED;
   }
 
   strong {
     color: inherit;
   }
+}
+
+.active a:hover, .active:hover {
+  text-decoration: none;
+  cursor: default;
 }
 
 img {

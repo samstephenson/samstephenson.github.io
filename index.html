@@ -17,7 +17,7 @@ class: homepage
     {% for post in site.posts %}
 
       <li><a href="{{ post.url }}" title="{{ post.title }}">
-      <img src="{{ post.thumb }}">
+      <div class="zoomContainer"><img src="{{ post.thumb }}"></div>
         {{ post.title }}
       </a></li>
 
