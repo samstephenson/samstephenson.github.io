@@ -28,4 +28,9 @@ Publication is split into two sections: lecture transcripts and biographies – 
 	<img src="/images/past-present/pastpresent04@2x.jpg" alt="pastandpresent" class="full">
 	<img src="/images/past-present/pastpresent05@2x.jpg" alt="pastandpresent" class="full">
 	<img src="/images/past-present/pastpresent06@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent07@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent08@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent09@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent10@2x.jpg" alt="pastandpresent" class="full">
+	<img src="/images/past-present/pastpresent11@2x.jpg" alt="pastandpresent" class="full">
 </section>
