@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.github.io/atom.xml" rel="self"/>
  <link href="http://samstephenson.github.io/"/>
- <updated>2016-02-09T20:50:36+00:00</updated>
+ <updated>2016-02-09T23:00:53+00:00</updated>
  <id>http://samstephenson.github.io</id>
  <author>
    <name>Sam Stephenson</name>
@@ -19,7 +19,7 @@
    <id>http://samstephenson.github.io/work/MoneyApp</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Keeping track of who-owes-who-what&lt;/strong&gt; situations is difficult. Paying bills among housemates, settling up for dinner, or borrowing cash from a friend – it’s easy to lose track of things or get in a muddle over money.&lt;/p&gt;
 
-&lt;p&gt;Current solutions – spreadsheets, IOU notes, group noticeboards etc., tend to be one-sided, relying on the diligence and calculations of one individual. Where our money is involved we want certainty we’re being treated fairly. A digital ‘middle man’ service could monitor these exchanges with transparency, mitigating the tensions that usually come with borrowing money. An open and accurate record would remove disputes or inaccuracies over who owes what.&lt;/p&gt;
+&lt;p&gt;Current solutions – spreadsheets, IOU notes, group noticeboards etc., tend to be one-sided, relying on the diligence and calculations of one individual. Where money is involved we want certainty we’re being treated fairly. A digital ‘middle man’ service could monitor these exchanges with transparency, mitigating the tensions that usually come with borrowing money. An open and accurate record would remove disputes or inaccuracies over who owes what.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-brief&quot;&gt;The Brief&lt;/h2&gt;
 &lt;p&gt;Design a digital product to help people manage group payments and keep track of money owed.&lt;/p&gt;
@@ -43,19 +43,21 @@
 &lt;p&gt;Read a copy of the survey &lt;a href=&quot;https://www.dropbox.com/s/idsokfkels8f9tl/questionnaire%20single.pdf?dl=0&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
-&lt;p&gt;Around 80 came back. Most were full of useful insights, figures and anecdotes as well as many common themes and pain points. These could be grouped into independent scenarios where issues arose and the product might intervene:
-- 1–2–1 transactions: ‘I owe you £x for y’, your round at the pub, picking up the bill for a friend
-- One-off, group events: Splitting one payment among multiple people.
-- Recurring, group-based events: House bills, rotas Group payment, unequal split: splitting a restaurant bill, each person paying a different amount
-- Long term, large-scale debts: “I owe my family thousands”&lt;/p&gt;
+&lt;p&gt;Around 80 came back. Most were full of useful insights, figures and anecdotes as well as many common themes and pain points. These could be grouped into independent scenarios where issues arose and the product might intervene:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1–2–1 transactions: ‘I owe you £x for y’, your round at the pub, picking up the bill for a friend.&lt;/li&gt;
+  &lt;li&gt;One-off, group events: splitting one payment among multiple people.&lt;/li&gt;
+  &lt;li&gt;Recurring, group-based events: house bills, rotas,&lt;/li&gt;
+  &lt;li&gt;Group payment, unequal split: splitting a restaurant bill, each person paying a different amount.&lt;/li&gt;
+  &lt;li&gt;Long term, large-scale debts: “I owe my family thousands”&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;empathy-maps&quot;&gt;Empathy maps&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/money-app/empathy-map-web.png&quot; alt=&quot;Money app empathy maps&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Moving on, I picked out potential user groups from the research and did an empathy mapping exercise for each. Helping to understand users’ different points of view, identify pain points, and think about how I might solve them.&lt;/p&gt;
-
-&lt;p&gt;Take a look at a few [link]&lt;/p&gt;
 
 &lt;h3 id=&quot;personas&quot;&gt;Personas&lt;/h3&gt;
 
@@ -65,7 +67,7 @@
 
 &lt;p&gt;Doing this, I’m able to keep specific people in mind when designing the product. If I’ve successfully solved their problems, theory says I’ll have covered most issues for all of my users.&lt;/p&gt;
 
-&lt;p&gt;Explore my personas &lt;a href=&quot;https://www.dropbox.com/s/8olqlkxrmrtwztj/Personas.pdf?dl=0&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Take a closer look at the personas &lt;a href=&quot;https://www.dropbox.com/s/8olqlkxrmrtwztj/Personas.pdf?dl=0&quot;&gt;here.&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;user-journeys&quot;&gt;User Journeys&lt;/h3&gt;
 &lt;p&gt;I then mapped out the personas’ individual tasks – all the steps they’d take to solve their problem and how the app would fit into that. This all helped pin down the range of functions the product would need to fulfil and gave a guide for the information architecture.&lt;/p&gt;
@@ -75,11 +77,9 @@
 &lt;h3 id=&quot;messaging-pattern&quot;&gt;Messaging pattern&lt;/h3&gt;
 &lt;p&gt;I decided on a messaging style architecture for the product. Here’s why:
 - People owing money to each other is always essentially a one-to-one relationship. Even if there’s a big payment split among many people, debts will always boil down to X-owes-Y £n.
-- A sequence of ‘I paid for this, she paid for that’ events would naturally start to resemble a conversation, a back and forth dialog between two people. 
+- A sequence of ‘I paid for this, she paid for that’ events would naturally start to resemble a conversation, a back and forth dialogue between two people. 
 - On your phone, one-to-one relationships with friends almost all live inside messaging apps. 
 - The ‘messaging-conversation model’ is well understood by the average smartphone user. Less to learn for first-time users.&lt;/p&gt;
-
-&lt;h2 id=&quot;first-prototypes&quot;&gt;First prototypes&lt;/h2&gt;
 
 &lt;h2 id=&quot;initial-prototypes&quot;&gt;Initial prototypes&lt;/h2&gt;
 
@@ -164,6 +164,11 @@ The publication should embody the Institute’s message, ‘philosophy for every
 	&lt;img src=&quot;/images/past-present/pastpresent04@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
 	&lt;img src=&quot;/images/past-present/pastpresent05@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
 	&lt;img src=&quot;/images/past-present/pastpresent06@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent07@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent08@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent09@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent10@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent11@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
 &lt;/section&gt;
 </content>
  </entry>
