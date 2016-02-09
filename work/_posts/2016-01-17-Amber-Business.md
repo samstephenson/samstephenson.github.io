@@ -4,7 +4,7 @@ title: Amber Business website
 status: Completed 2011
 tags: web wordpress
 img: /images/006-amber/browser.jpg
-thumb: /images/006-amber/Thumb.png
+thumb: /images/006-amber/thumb.png
 ---
 
 Amber Business is a small business consultancy and financial directors based in the South West of England. They asked for a new website to better communicate what they do to prospective customers, and to drive new enquiries. 
