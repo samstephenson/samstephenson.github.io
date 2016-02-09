@@ -3,12 +3,17 @@ layout: page
 title: 
 ---
 
-A freelance designer and student at Falmouth University. I have a passion for ideas-driven design, crafting experiences with empathy and respect for human behaviour. Affecting lives 
-for the better.
+![Sam Stephenson](/images/sam1.jpg)
 
-Graduating in June this year, I am seeking internships with start-ups and digital agencies in London and San Francisco. I hope to contribute to an energetic team, working closely with engineers to make ambitious ideas a reality.
+I’m Sam Stephenson, a freelance designer and student at Falmouth University. I study graphic design, but have long held an affinity with web and digital products. I have a passion for ideas-driven design: crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
 
-When not working, I’m probably surfing, kayaking or exploring the outdoors and encouraging others to do so. I also enjoy photography and reading.  I represented the UK in freestyle kayaking (bronze medallist 2012 European Championships) and am the Head Coach at Falmouth Student Kayak Club.
+I’ll be graduating in June this year, and am seeking internships with start-ups and digital agencies in London or San Francisco.
+
+If you 
+
+You’ll find me on Twitter, Behance and Spotify, and can [send an email here.](mailto:sam@stephenson.net)
+
+When not working, I’m likely to be surfing, kayaking or exploring the outdoors, and encouraging others to do so. I represented the UK in freestyle kayaking (bronze medallist 2012 European Championships) and am the Head Coach at Falmouth Student Kayak Club.
 
 ### Experience
 See my résumé for a more comprehensive list.
