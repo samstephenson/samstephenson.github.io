@@ -12,6 +12,7 @@ $basePadding: 1.2rem;
 
 $darkGrey: #111;
 $lightGrey: #aaa;
+$linkColor: #778282;
 
 $fontUI: 
     -apple-system, BlinkMacSystemFont, 
@@ -70,14 +71,13 @@ iframe {
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: #268bd2;
+  color: $linkColor;
   text-decoration: none;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: underline;
-    color: #0593ED;
+    color: black;
   }
 
   strong {
