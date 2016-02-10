@@ -127,7 +127,7 @@ ul.homepageProjects  {
 		}
 
 		a:hover {
-			text-decoration: underline;
+			color: $linkColor;
 
 			img {
 				-webkit-transform: scale(1.02);

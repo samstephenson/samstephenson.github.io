@@ -28,7 +28,7 @@
   }
 
   a:hover {
-    text-decoration: none;
+    color: $linkColor;
   }
 
   small {
@@ -54,8 +54,11 @@
     color: $darkGrey;
     padding: $basePadding 0.8rem;
   }
-  a.active {
+  a.active, a.active:hover {
     color: $lightGrey;
+  }
+  a:hover {
+    color: $linkColor;
   }
 
   a:last-child {
@@ -126,12 +129,16 @@
       border-right: 0;
     }
 
-    &.active a {
+    &.active a, &.active a:hover {
       color: $lightGrey;
     }
 
     a {
       color: black;
+    }
+
+    a:hover {
+      color: $linkColor;
     }
 
   }

@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.github.io/atom.xml" rel="self"/>
  <link href="http://samstephenson.github.io/"/>
- <updated>2016-02-10T00:58:29+00:00</updated>
+ <updated>2016-02-10T15:42:14+00:00</updated>
  <id>http://samstephenson.github.io</id>
  <author>
    <name>Sam Stephenson</name>
@@ -140,43 +140,9 @@
  </entry>
  
  <entry>
-   <title>Past & Present publication</title>
-   <link href="http://samstephenson.github.io/work/Past-and-Present.html"/>
-   <updated>2016-01-20T00:00:00+00:00</updated>
-   <id>http://samstephenson.github.io/work/Past-and-Present</id>
-   <content type="html">&lt;h2 id=&quot;the-brief&quot;&gt;The Brief&lt;/h2&gt;
-&lt;p&gt;Create an event publication for the Royal Institute of Philosophy’s Past &amp;amp; Present series, using the provided lecture transcripts, biographies and quotes. 
-The publication should embody the Institute’s message, ‘philosophy for everyone’, making the subject accessible and engaging to a wide audience beyond academia.&lt;/p&gt;
-
-&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Capture the spirit of a live event&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The content provided is a series of lecture transcripts. I wanted to encapsulate the experience of those live lectures within the design of the publication – making readers feel as if they were in the room with the speaker, reliving the event for themselves.&lt;/p&gt;
-
-&lt;h3 id=&quot;craft&quot;&gt;Craft&lt;/h3&gt;
-&lt;p&gt;The book is printed in a single, rich cobalt ink, designed to feel prestigious and envelope the reader in the words of the lecturers. The type is set in Baskerville and Akzidenz Grotesk – a juxtaposition of old England and new modernism to reflect the Past &amp;amp; Present theme.&lt;/p&gt;
-
-&lt;p&gt;Publication is split into two sections: lecture transcripts and biographies – signified by a change in paper stock.&lt;/p&gt;
-
-&lt;section&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent02@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent03@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent04@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent05@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent06@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent07@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent08@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent09@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent10@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-	&lt;img src=&quot;/images/past-present/pastpresent11@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
-&lt;/section&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Branding Bitcoin for the developing world</title>
    <link href="http://samstephenson.github.io/work/Bitcoin.html"/>
-   <updated>2016-01-20T00:00:00+00:00</updated>
+   <updated>2016-01-21T00:00:00+00:00</updated>
    <id>http://samstephenson.github.io/work/Bitcoin</id>
    <content type="html">&lt;p&gt;Bitcoin is a new way of doing money – and as a currency it is slowly maturing. But fundamentally it is a system born in the gloomy world of hacker forums, built on complex cryptography beyond the comprehension of most ordinary folk.&lt;/p&gt;
 
@@ -244,6 +210,40 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
 &lt;img src=&quot;/images/bitcoin/environmental4.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
 &lt;img src=&quot;/images/bitcoin/environmental5.jpg&quot; alt=&quot;Bitcoin environmental marketing&quot; class=&quot;full&quot; /&gt;
 &lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Past & Present publication</title>
+   <link href="http://samstephenson.github.io/work/Past-and-Present.html"/>
+   <updated>2016-01-20T00:00:00+00:00</updated>
+   <id>http://samstephenson.github.io/work/Past-and-Present</id>
+   <content type="html">&lt;h2 id=&quot;the-brief&quot;&gt;The Brief&lt;/h2&gt;
+&lt;p&gt;Create an event publication for the Royal Institute of Philosophy’s Past &amp;amp; Present series, using the provided lecture transcripts, biographies and quotes. 
+The publication should embody the Institute’s message, ‘philosophy for everyone’, making the subject accessible and engaging to a wide audience beyond academia.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Capture the spirit of a live event&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The content provided is a series of lecture transcripts. I wanted to encapsulate the experience of those live lectures within the design of the publication – making readers feel as if they were in the room with the speaker, reliving the event for themselves.&lt;/p&gt;
+
+&lt;h3 id=&quot;craft&quot;&gt;Craft&lt;/h3&gt;
+&lt;p&gt;The book is printed in a single, rich cobalt ink, designed to feel prestigious and envelope the reader in the words of the lecturers. The type is set in Baskerville and Akzidenz Grotesk – a juxtaposition of old England and new modernism to reflect the Past &amp;amp; Present theme.&lt;/p&gt;
+
+&lt;p&gt;Publication is split into two sections: lecture transcripts and biographies – signified by a change in paper stock.&lt;/p&gt;
+
+&lt;section&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent02@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent03@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent04@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent05@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent06@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent07@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent08@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent09@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent10@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+	&lt;img src=&quot;/images/past-present/pastpresent11@2x.jpg&quot; alt=&quot;pastandpresent&quot; class=&quot;full&quot; /&gt;
+&lt;/section&gt;
 </content>
  </entry>
  
