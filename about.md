@@ -48,8 +48,6 @@ This is my first encounter with Jekyll, so far it seems great. Much simpler than
 
 I'm keeping an [updated list of issues and things to do here…](https://workflowy.com/s/tOSIWFifHd)
 
-Headings and UI text are rendered in the system font. Body copy in [Freight Text Pro](https://typekit.com/fonts/freight-text-pro) – a lovely, near-invisible reading typeface for screens. Served via Typekit.
-
-[Dan Eden](http://twitter.com/_dte) and [Michael Wright's](http://twitter.com/michaelw90), whose [Basehold.it](http://basehold.it/) made establishing some vertical rythmn much, much easier. Thank you guys.
+Headings and UI text are rendered in the system font. Body copy in [Freight Text Pro](https://typekit.com/fonts/freight-text-pro), served via Typekit. [Basehold.it](http://basehold.it/) took the pain out of establishing some vertical rythmn.
 
 Thanks also to all in [Spec.fm's](http://spec.fm/) [Wake team](https://inspect.wake.io/), whose feedback was invaluable in getting the site's design to this point.
