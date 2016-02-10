@@ -15,7 +15,7 @@ You’ll find me on [Twitter](https://twitter.com/samstephenson1), [Behance](htt
 
 <hr>
 ## Experience
-See my résumé for a more comprehensive list.
+[See my résumé](/resume.pdf) for a more comprehensive list.
 
 #### Placement at [ASHA](http://ashawebsite.co.uk/), a branding agency (August–September 2015)
 Actively contributed to naming, brand strategy and logo development in the lead up to first-stage client presentation for ChangeGrowLive. Designed a custom icon set for use in environmental graphics and branding material. Work placement extended at request of ASHA.
