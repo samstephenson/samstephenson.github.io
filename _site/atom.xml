@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.github.io/atom.xml" rel="self"/>
  <link href="http://samstephenson.github.io/"/>
- <updated>2016-02-10T15:58:22+00:00</updated>
+ <updated>2016-02-10T16:47:02+00:00</updated>
  <id>http://samstephenson.github.io</id>
  <author>
    <name>Sam Stephenson</name>
@@ -170,7 +170,11 @@
 &lt;p&gt;Bitcoin can help solve this. Its democratic and decentralised nature unties people from corruption and can help them take control of their finances. Money becomes a tool for self-improvement, not a weight to shackle you down.&lt;/p&gt;
 
 &lt;h2 id=&quot;introducing&quot;&gt;Introducing…&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/bitcoin/bitcoin-banner.png&quot; alt=&quot;Bitcoin: you empowered&quot; /&gt;&lt;/p&gt;
+&lt;section style=&quot;background: #FFEB00&quot;&gt;
+
+&lt;img src=&quot;/images/bitcoin/bitcoin-banner.png&quot; class=&quot;wide&quot; /&gt;
+
+&lt;/section&gt;
 
 &lt;h3 id=&quot;values&quot;&gt;Values&lt;/h3&gt;
 
@@ -222,7 +226,7 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
  </entry>
  
  <entry>
-   <title>Past & Present publication</title>
+   <title>Publication for the Royal Institute of Philosophy</title>
    <link href="http://samstephenson.github.io/work/Past-and-Present.html"/>
    <updated>2016-01-20T00:00:00+00:00</updated>
    <id>http://samstephenson.github.io/work/Past-and-Present</id>
@@ -269,7 +273,7 @@ The publication should embody the Institute’s message, ‘philosophy for every
  </entry>
  
  <entry>
-   <title>Amber Business website</title>
+   <title>Amber Business Consultancy website</title>
    <link href="http://samstephenson.github.io/work/Amber-Business.html"/>
    <updated>2016-01-17T00:00:00+00:00</updated>
    <id>http://samstephenson.github.io/work/Amber-Business</id>

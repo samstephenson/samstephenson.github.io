@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Amber Business website
+title: Amber Business Consultancy website
 status: Completed 2011
 tags: web wordpress
 img: /images/amber/browser.jpg
