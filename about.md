@@ -7,9 +7,9 @@ title:
 
 **I’m Sam Stephenson**, a freelance designer and student at Falmouth University. I study graphic design, but have long held an affinity with web and digital products. I have a passion for ideas-driven design: crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
 
-I’ll be graduating in June this year, and am seeking internships with start-ups and digital agencies in London or San Francisco.
+I’ll be graduating in June this year, and am seeking oppurtunities with start-ups and digital agencies in London or San Francisco.
 
-If you’ve any oppurtunities or advice, or just want to chat, I’d love to hear from you.
+If you’ve enquiries or advice, or just want to chat, I’d love to hear from you.
 
 You’ll find me on [Twitter](https://twitter.com/samstephenson1), [Behance](https://www.behance.net/samstephenson) and [Spotify](https://play.spotify.com/user/11120014586), and can [send an email here.](mailto:sam@stephenson.net)
 
