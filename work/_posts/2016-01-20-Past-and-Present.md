@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Past & Present publication
+title: Publication for the Royal Institute of Philosophy
 status: Completed 2015
 tags: print typography
 img: /images/past-present/pastpresent01.jpg
