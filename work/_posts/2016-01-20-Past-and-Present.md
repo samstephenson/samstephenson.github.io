@@ -17,6 +17,11 @@ The publication should embody the Institute’s message, ‘philosophy for every
 
 The content provided is a series of lecture transcripts. I wanted to encapsulate the experience of those live lectures within the design of the publication – making readers feel as if they were in the room with the speaker, reliving the event for themselves.
 
+
+<section>
+<div class="wide" data-configid="2756791/33399029" style="width:100%; height:45rem; margin: 0.9rem auto;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+</section>
+
 ### Craft
 The book is printed in a single, rich cobalt ink, designed to feel prestigious and envelope the reader in the words of the lecturers. The type is set in Baskerville and Akzidenz Grotesk – a juxtaposition of old England and new modernism to reflect the Past & Present theme.
 

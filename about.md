@@ -5,13 +5,11 @@ title:
 
 ![Sam Stephenson](/images/sam1.jpg)
 
-**I’m Sam Stephenson**, a freelance designer and student at Falmouth University. I study graphic design, but have long been fond of the the web and digital products. I have a passion for good, ideas-driven design: crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
+**I’m Sam Stephenson**, a freelance designer and student at Falmouth University. I study graphic design, but have long been fond of the the web and digital products. I have a passion for good, ideas-driven design; crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
 
 I’ll be graduating in June this year, and am seeking oppurtunities with start-ups and digital agencies in London or San Francisco.
 
-If you’ve enquiries or advice, or just want to chat, I’d love to hear from you.
-
-You’ll find me on [Twitter](https://twitter.com/samstephenson1), [Behance](https://www.behance.net/samstephenson) and [Spotify](https://play.spotify.com/user/11120014586), and can [send an email here.](mailto:sam@stephenson.net)
+If you’ve enquiries or advice, or just want to chat, I’d love to talk. Say hello! You’ll find me on [Twitter](https://twitter.com/samstephenson1), [Behance](https://www.behance.net/samstephenson) and [Spotify](https://play.spotify.com/user/11120014586), and can [send an email here.](mailto:sam@stephenson.net)
 
 <hr>
 ## Experience
@@ -30,13 +28,13 @@ Actively contributed to naming, brand strategy and logo development in the lead 
 
 <hr>
 
-## Otherwise, outside
+## Otherwise, probably outside
 
 <iframe width="100%" height="340" src="https://www.youtube.com/embed/rbn0sufuXmg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-When not working, I’m likely to be surfing, kayaking or exploring the outdoors, and encouraging others to do so. I represented the UK in freestyle kayaking (bronze medallist 2012 European Championships) and am the Head Coach at Falmouth Student Kayak Club.
+When not working, I’m likely to be surfing, kayaking or exploring the outdoors, and encouraging others to do so. As a junior, I represented the UK in freestyle kayaking, taking home a bronze medal in the 2012 European Championships.
 
-<hr>
+Last year, I played stuntman in an action sports film for my friend [Al](https://vimeo.com/alpleass), proving design to be to be a better career move than acting. You'll [find the film here.](https://vimeo.com/126584802) 
 
 ## About this site
 
