@@ -5,7 +5,7 @@ title:
 
 ![Sam Stephenson](/images/sam1.jpg)
 
-**I’m Sam Stephenson**, a freelance designer and student at Falmouth University. I study graphic design, but have long held an affinity with web and digital products. I have a passion for ideas-driven design: crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
+**I’m Sam Stephenson**, a freelance designer and student at Falmouth University. I study graphic design, but have long been fond of the the web and digital products. I have a passion for good, ideas-driven design: crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
 
 I’ll be graduating in June this year, and am seeking oppurtunities with start-ups and digital agencies in London or San Francisco.
 
