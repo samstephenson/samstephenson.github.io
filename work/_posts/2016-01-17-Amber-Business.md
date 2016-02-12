@@ -12,3 +12,5 @@ Amber Business is a small business consultancy and financial directors based in 
 Together with Michael, the owner, we decided on a design which talks the user through his proposition. Communicating the value he could provide whilst retaining a healthy dose of his personality.
 
 With the design decided, I built the site on top of an existing single-page Wordpress theme, heavily customised to fit the design. 
+
+[Visit the site](http://amberbusiness.co.uk/)

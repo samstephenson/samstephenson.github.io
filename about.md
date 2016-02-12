@@ -34,7 +34,7 @@ Actively contributed to naming, brand strategy and logo development in the lead 
 
 When not working, I’m likely to be surfing, kayaking or exploring the outdoors, and encouraging others to do so. As a junior, I represented the UK in freestyle kayaking, taking home a bronze medal in the 2012 European Championships.
 
-Last year, I played stuntman in an action sports film for my friend [Al](https://vimeo.com/alpleass), proving design to be to be a better career move than acting. You'll [find the film here.](https://vimeo.com/126584802) 
+Last year, I played stuntman in an action sports film for my friend [Al](https://vimeo.com/alpleass), proving design to be to be a more promising career path than acting. You'll [find the film here.](https://vimeo.com/126584802) 
 
 ## About this site
 

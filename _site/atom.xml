@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.github.io/atom.xml" rel="self"/>
  <link href="http://samstephenson.github.io/"/>
- <updated>2016-02-11T23:48:20+00:00</updated>
+ <updated>2016-02-12T00:51:51+00:00</updated>
  <id>http://samstephenson.github.io</id>
  <author>
    <name>Sam Stephenson</name>
@@ -33,11 +33,11 @@
   &lt;li&gt;Remember: we’re sharing money among friends, not legally binding client invoices. Using the product should be a quick, friendly gesture. An expression of trust. Definitely not a chore!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;user-research&quot;&gt;User research&lt;/h2&gt;
-
 &lt;div&gt;
-&lt;img alt=&quot;Money app user survey&quot; src=&quot;/images/money-app/user-research.jpg&quot; class=&quot;full&quot; /&gt;
+&lt;img alt=&quot;Money app user survey&quot; src=&quot;/images/money-app/user-research@2x.jpg&quot; class=&quot;full&quot; /&gt;
 &lt;/div&gt;
+
+&lt;h2 id=&quot;user-research&quot;&gt;User research&lt;/h2&gt;
 
 &lt;h3 id=&quot;initial-survey&quot;&gt;Initial survey&lt;/h3&gt;
 &lt;p&gt;To better understand the problem, I put out a survey among 100 or so fellow students, staff and tutors — asking for their stories, issues and experiences of borrowing money or splitting payments among friends.&lt;/p&gt;
@@ -79,6 +79,10 @@
 &lt;p&gt;I then mapped out the personas’ individual tasks – all the steps they’d take to solve their problem and how the app would fit into that. This all helped pin down the range of functions the product would need to fulfil and gave a guide for the information architecture.&lt;/p&gt;
 
 &lt;h2 id=&quot;sketching&quot;&gt;Sketching&lt;/h2&gt;
+
+&lt;section&gt;
+&lt;img alt=&quot;sketches&quot; src=&quot;/images/money-app/sketches.jpg&quot; class=&quot;full&quot; /&gt;
+&lt;/section&gt;
 
 &lt;h3 id=&quot;messaging-pattern&quot;&gt;Messaging pattern&lt;/h3&gt;
 &lt;p&gt;For a few reasons, I settled on a messaging style architecture for the product:&lt;/p&gt;
@@ -131,6 +135,8 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/money-app/doodles-web.png&quot; alt=&quot;money-owed dynamics&quot; /&gt;&lt;/p&gt;
 
+&lt;h5 id=&quot;visual-metaphors-for-the-relationship--potential-energy-strain-balance-trust&quot;&gt;Visual metaphors for the relationship – potential energy, strain, balance, trust…&lt;/h5&gt;
+
 &lt;ul&gt;
   &lt;li&gt;There’s a bond between them – it’s a symbol of trust and friendship&lt;/li&gt;
   &lt;li&gt;There is tension (potential energy?)&lt;/li&gt;
@@ -138,7 +144,15 @@
   &lt;li&gt;This sense of balance, energy and motion might play with these dynamics through visuals and animation.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;whats-next&quot;&gt;What’s next&lt;/h2&gt;
+&lt;h3 id=&quot;initial-polish-up&quot;&gt;Initial polish-up.&lt;/h3&gt;
+
+&lt;p&gt;It’s a bit premature. There’s a lot of the UX still to be prototyped and tested, but I couldn’t resist pushing one screen forward and tightening it up a bit visually…&lt;/p&gt;
+
+&lt;section style=&quot;background:#ececec&quot;&gt;
+&lt;img class=&quot;full&quot; alt=&quot;money app visual development&quot; src=&quot;/images/money-app/polish-progression.png&quot; /&gt;
+&lt;/section&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
 &lt;p&gt;This project is far from done, so here’s what I need to tackle next…&lt;/p&gt;
 
 &lt;h3 id=&quot;developing-a-visual-identity&quot;&gt;Developing a visual identity&lt;/h3&gt;
@@ -148,7 +162,7 @@
 &lt;p&gt;Make a more complete map of all the functionality that needs to exist in the product – design the stuff that’s missing and tie it together into prototypes for testing.&lt;/p&gt;
 
 &lt;h3 id=&quot;user-testing&quot;&gt;User testing&lt;/h3&gt;
-&lt;p&gt;Organise a testing day and recruit participants to test user flows. Document the event. Try and do a few of these before year-end.&lt;/p&gt;
+&lt;p&gt;Organise a testing day and recruit participants to test user flows. Document the event. Get a few rounds of this in before end of term.&lt;/p&gt;
 </content>
  </entry>
  
@@ -280,6 +294,8 @@ The publication should embody the Institute’s message, ‘philosophy for every
 &lt;p&gt;I redesigned their site back in 2011. It’s a Wordpress site adapted from an existing theme, designed to showcase the courses on offer and the stunning location, as well as making booking clear and easy.&lt;/p&gt;
 
 &lt;p&gt;5 years later, feedback from users is still great. Most importantly, the courses are booked up each year within days of their announcement. Grandma’s still happy with it and, with the documentation I created to go with the site, can update it herself each year with minimal input from me.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jackbeck.co.uk/&quot;&gt;Visit the site&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -293,6 +309,8 @@ The publication should embody the Institute’s message, ‘philosophy for every
 &lt;p&gt;Together with Michael, the owner, we decided on a design which talks the user through his proposition. Communicating the value he could provide whilst retaining a healthy dose of his personality.&lt;/p&gt;
 
 &lt;p&gt;With the design decided, I built the site on top of an existing single-page Wordpress theme, heavily customised to fit the design.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://amberbusiness.co.uk/&quot;&gt;Visit the site&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
