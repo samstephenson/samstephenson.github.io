@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.github.io/atom.xml" rel="self"/>
  <link href="http://samstephenson.github.io/"/>
- <updated>2016-02-12T01:02:13+00:00</updated>
+ <updated>2016-02-12T01:05:59+00:00</updated>
  <id>http://samstephenson.github.io</id>
  <author>
    <name>Sam Stephenson</name>
@@ -33,9 +33,9 @@
   &lt;li&gt;Remember: we’re sharing money among friends, not legally binding client invoices. Using the product should be a quick, friendly gesture. An expression of trust. Definitely not a chore!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div&gt;
+&lt;section&gt;
 &lt;img alt=&quot;Money app user survey&quot; src=&quot;/images/money-app/user-research@2x.jpg&quot; class=&quot;full&quot; /&gt;
-&lt;/div&gt;
+&lt;/section&gt;
 
 &lt;h2 id=&quot;user-research&quot;&gt;User research&lt;/h2&gt;
 
