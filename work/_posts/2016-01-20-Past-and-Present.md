@@ -3,7 +3,7 @@ layout: portfolio
 title: Publication for the Royal Institute of Philosophy
 status: Completed 2015
 tags: print typography
-img: /images/past-present/pastpresent01.jpg
+img: /images/past-present/pastpresent01@2x.jpg
 thumb: /images/past-present/thumb.png
 
 ---

@@ -9,7 +9,7 @@ title:
 
 I’ll be graduating in June this year, and am seeking oppurtunities with start-ups and digital agencies in London or San Francisco.
 
-If you’ve enquiries or advice, or just want to chat, I’d love to talk. Say hello! You’ll find me on [Twitter](https://twitter.com/samstephenson1), [Behance](https://www.behance.net/samstephenson) and [Spotify](https://play.spotify.com/user/11120014586), and can [send an email here.](mailto:sam@stephenson.net)
+If you’ve enquiries or advice, or just want to chat, I’d love to talk. You’ll find me on [Twitter](https://twitter.com/samstephenson1), [Behance](https://www.behance.net/samstephenson) and [Spotify](https://play.spotify.com/user/11120014586), and can [send an email here.](mailto:sam@stephenson.net)
 
 <hr>
 ## Experience
