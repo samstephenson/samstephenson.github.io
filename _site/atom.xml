@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.github.io/atom.xml" rel="self"/>
  <link href="http://samstephenson.github.io/"/>
- <updated>2016-02-17T21:35:57+00:00</updated>
+ <updated>2016-02-23T15:16:55+00:00</updated>
  <id>http://samstephenson.github.io</id>
  <author>
    <name>Sam Stephenson</name>
@@ -230,6 +230,10 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
 &lt;/div&gt;
 
 &lt;p&gt;To introduce people to the potential of Bitcoin, I designed a leaflet to be handed out at points-of-sale and other touchpoints. The language is crafted to quickly clarify the benefits of digital currency and make signing up as easy as possible. Informal copy, newsprint paper and hand-drawn illustrations give it a helpful, approachable feel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/bitcoin/icons.png&quot; alt=&quot;Bitcoin icons&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;leaflet-icons&quot;&gt;Leaflet icons&lt;/h5&gt;
 
 &lt;h2 id=&quot;environmental-application&quot;&gt;Environmental Application&lt;/h2&gt;
 &lt;p&gt;Branding is spread throughout populated areas using everyday objects coloured with the same distinctive yellow. The message and objects are all metaphors for Bitcoin’s key values and all have real uses beyond advertising so they can permeate the environment over time.&lt;/p&gt;
