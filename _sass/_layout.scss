@@ -43,8 +43,6 @@ footer {
 
 .page {
 
-	padding: 4rem 0;
-
 	p, h1, h2, h3, h4, ul, img, iframe {
 		width: 100%;
 		max-width: $colWidth;
@@ -98,58 +96,44 @@ footer {
 ul.homepageProjects  {
 
 	padding: 0;
-	margin: 3rem 0;
 
-	li {
-		width: 100%;
-		vertical-align: top;	
-		max-width: ($colWidth - 4) / 2 ;
-		display: inline-block;
-		font: $typeUI $fontUI;
-		margin-bottom: 4rem;
-		line-height: 1.4;
-
-		&:nth-child(2n) {
-				margin-right: 0;
-		}
-
-		img {
-			margin: 0;
+		li {
+			display: flex;
+			flex-direction: row;
 			width: 100%;
-			position: absolute;
- 			-webkit-transition: 0.1s ease;
-			transition: 0.1s ease;
-			top: 0;
-			left: 0;
-		}
+			margin: 0;
 
-		a {
-			color: black;
-		}
+			div {
+				margin: auto;
+				flex-grow: 1;
+				width: 50%;
+				line-height: 1.4;
+				height: 100%;
+			}
 
-		a:hover {
-			/*color: $linkColor;*/
+			div .projectDetail {
+				max-width: $colWidth/2;
+				margin: auto;
+			}
 
 			img {
-				-webkit-transform: scale(1.02);
-  				transform: scale(1.02);
+				margin: 0;
+				width: 100%;
+				-webkit-transition: 0.1s ease;
+				transition: 0.1s ease;
 			}
+
+			a {
+				color: black;
+				font-family: $fontUI;
+				font-size: $typeUI;
+				font-weight: 600;
+			}
+
 		}
 
-	}
-
-	@media (min-width: 30em) {
-		li {
-			margin-right: 1.2rem;
+		li:nth-child(even) {
+			flex-direction: row-reverse;
 		}
-	}
 
-}
-
-.zoomContainer {
-	position: relative;
-	overflow: hidden;
-	margin: 0 0 .8rem 0;
-	width: inherit;
-	height: 9.5rem;
 }

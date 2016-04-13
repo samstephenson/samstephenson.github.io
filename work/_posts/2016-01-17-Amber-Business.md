@@ -1,6 +1,7 @@
 ---
 layout: portfolio
-title: Amber Business Consultancy website
+title: Amber Business
+subtitle: Website for small business consultancy
 status: Completed 2011
 tags: web wordpress
 img: /images/amber/mockup.png
