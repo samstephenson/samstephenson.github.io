@@ -1,0 +1,16 @@
+---
+layout: portfolio
+title: Jack Beck Painting Courses website
+status: Completed 2011
+tags: web wordpress
+img: /images/jack-beck/browser.jpg
+thumb: /images/jack-beck/thumb.png
+---
+
+My Grandma's company, Jack Beck, has been a popular provider of art courses and holidays for over 15 years. From their picturesque location in the Yorkshire Dales, they host multi-day courses taught by leading British artists.
+
+I redesigned their site back in 2011. It's a Wordpress site adapted from an existing theme, designed to showcase the courses on offer and the stunning location, as well as making booking clear and easy.
+
+5 years later, feedback from users is still great. Most importantly, the courses are booked up each year within days of their announcement. Grandma's still happy with it and, with the documentation I created to go with the site, can update it herself each year with minimal input from me.
+
+[Visit the site](http://jackbeck.co.uk/)

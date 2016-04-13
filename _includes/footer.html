@@ -1,0 +1,34 @@
+{% include projectnav.html %}
+
+<footer class="footer">
+    <small>
+      
+      <div class="left">
+        <a href="mailto:sam@stephenson.net" title="Send me an email to say hi">Email me</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://twitter.com/samstephenson1" title="@SamStephenson1">Twitter</a>
+        &nbsp;&middot;&nbsp;
+        <!--<a href="https://dribbble.com/SamStephenson1" title="Sam Stephenson on Dribbble">Dribbble</a>
+        &nbsp;&middot;&nbsp;-->
+        <a href="https://www.behance.net/samstephenson" title="Behance portfolio">Behance</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://uk.linkedin.com/in/stephensonsam" title="LinkedIn">LinkedIn</a>
+      </div>
+
+      <div class="right">
+        &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.title }}. <a href="/about.html#about-this-site" title="About this site">About this site</a>
+      </div>
+
+    </small>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-37428304-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+</footer>
