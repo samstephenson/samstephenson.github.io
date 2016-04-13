@@ -3,101 +3,87 @@
 // Headings, body text, lists, and other misc typographic elements.
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .0;
-  font-weight: normal;
-  color: #111;
+  font-family: $typeUI;
+  margin-bottom: 1.8rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #222;
   text-rendering: optimizeLegibility;
-  letter-spacing: 0.01em;
+
+  small {
+    font-weight: 400;
+  }
+
 }
 
 h1 {
-  font-weight: 700;
-  font-size: 1.4rem;
-  line-height: 1.2;
+  font-size: 2rem;
+  text-align: center;
+  margin: 4rem auto;
+  color: black;
+}
 
-  @media (min-width: 30em) {
-    font-size: 1.6rem;
-    line-height: 1.125;
-  }
+.homepage h1 {
+  text-align: left;
+  margin: 0 0 1.8rem; 
 }
 
 h2 {
-  margin-top: 2rem;
-  font-size: 0.8rem;
-  color: #666;
-
-  @media (min-width: 30em) {
-    margin-top: 0;
-  }
+  margin-top: 4.8rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 3.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+
+}
+
+h4, h5, h6 {
+  margin-top: 1rem;
   font-size: 1rem;
 }
 
-h4 {
-  font-size: 1.2em;
-  text-align: center;
-  font-weight: lighter;
-  max-width: $colWidth + 12;
-  padding: 0 1em;
-  margin: 1em auto;
-
-  @media (min-width: 30em) {
-    font-size: 1.4rem;
-  }
-
-}
-
 p {
-  margin: 0.65rem 0;
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+  font-family: $fontBody;
 
   @media (min-width: 30em) {
-    margin: 0.75rem 0;
+    font-size: 1.2rem;
   }
+
 }
 
 strong {
   color: #303030;
 }
 
-.links {
-  margin: 0 0 1.3rem 0;
-  padding-left: 0;
-  list-style-type: none;
+/*Captions*/
+h5 {
+  font-family: $fontBody;
+  font-style: italic;
+  font-weight: 400;
+  max-width: $colWidth - 10;
+  text-align: center;
+  margin: 0 auto 1.8rem;
+}
 
-  @media (min-width: 30em) {
-    margin: 0 0 1.5rem 0;
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+  font-family: $fontBody;
+
+  li {
+    margin-bottom: 0.9rem;
   }
-
-}
-
-ul.links li {
-    padding: .65rem 0 .325rem;
-    margin: 0;
-    border-bottom: #ccc solid 1px;
-
-    &:last-child {
-      border:none;
-    }
-}
-
-.links li a {
-  background: none;
-  text-shadow: none;
-}
-
-li {
-  margin: .65rem 0;
-
+  
   @media (min-width: 30em) {
-    margin: .65rem 0;
+    font-size: 1.2rem;
   }
-
 }
-
-li a {}
 
 dt {
   font-weight: bold;
@@ -109,7 +95,7 @@ dd {
 
 hr {
   position: relative;
-  margin: 2.25rem 0;
+  margin: 1.5rem 0;
   border: 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
@@ -141,6 +127,10 @@ blockquote {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
+}
+
+sup {
+  font-size: 0.5rem;
 }
 
 

@@ -1,0 +1,58 @@
+<head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!--Fonts-->
+  <script src="https://use.typekit.net/zdn3xua.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+  <!--<link rel="stylesheet" href="http://basehold.it/32">-->
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+
+  <script type="text/javascript">{% include nav.js %}</script>
+
+</head>
+
+
+<body class="{{ page.class }}">
+
+    <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <!--<small>{{ site.tagline }}</small>-->
+        </h3> 
+
+        <nav>
+          <a 
+            href="{% for post in site.posts limit:1 %}{{ post.url }}{% endfor%}" 
+            class="{% if page.categories contains 'work' %}active{% endif %} work"
+          >Work</a>
+          <a href="/about.html" {% if page.url == '/about.html' %} class="active"{% endif %}>About</a>
+        </nav>
+
+    </header>
+
+    {% include projectnav.html %}
