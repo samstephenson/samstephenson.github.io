@@ -4,7 +4,7 @@
  <title>Sam Stephenson</title>
  <link href="http://samstephenson.github.io/atom.xml" rel="self"/>
  <link href="http://samstephenson.github.io/"/>
- <updated>2016-04-14T12:24:53+01:00</updated>
+ <updated>2016-04-14T12:25:26+01:00</updated>
  <id>http://samstephenson.github.io</id>
  <author>
    <name>Sam Stephenson</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>An iOS app for resolving who owes what</title>
+   <title>Seesaw</title>
    <link href="http://samstephenson.github.io/work/MoneyApp.html"/>
    <updated>2016-01-22T00:00:00+00:00</updated>
    <id>http://samstephenson.github.io/work/MoneyApp</id>
@@ -167,7 +167,7 @@
  </entry>
  
  <entry>
-   <title>Branding Bitcoin for the developing world</title>
+   <title>Branding Bitcoin</title>
    <link href="http://samstephenson.github.io/work/Bitcoin.html"/>
    <updated>2016-01-21T00:00:00+00:00</updated>
    <id>http://samstephenson.github.io/work/Bitcoin</id>
@@ -251,7 +251,7 @@ Bitcoin transactions are person to person – it’s just you, and the one recei
  </entry>
  
  <entry>
-   <title>Publication for the Royal Institute of Philosophy</title>
+   <title>Past & Present</title>
    <link href="http://samstephenson.github.io/work/Past-and-Present.html"/>
    <updated>2016-01-20T00:00:00+00:00</updated>
    <id>http://samstephenson.github.io/work/Past-and-Present</id>
@@ -289,7 +289,7 @@ The publication should embody the Institute’s message, ‘philosophy for every
  </entry>
  
  <entry>
-   <title>Jack Beck Painting Courses website</title>
+   <title>Jack Beck</title>
    <link href="http://samstephenson.github.io/work/Jack-Beck.html"/>
    <updated>2016-01-18T00:00:00+00:00</updated>
    <id>http://samstephenson.github.io/work/Jack-Beck</id>
@@ -304,7 +304,7 @@ The publication should embody the Institute’s message, ‘philosophy for every
  </entry>
  
  <entry>
-   <title>Amber Business Consultancy website</title>
+   <title>Amber Business</title>
    <link href="http://samstephenson.github.io/work/Amber-Business.html"/>
    <updated>2016-01-17T00:00:00+00:00</updated>
    <id>http://samstephenson.github.io/work/Amber-Business</id>
