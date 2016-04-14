@@ -6,7 +6,11 @@
 
 $colWidth: 38rem;
 $wideWidth: $colWidth + 16;
+<<<<<<< HEAD
 $typeUI: 0.9rem;
+=======
+$typeUI: 0.8rem;
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 $typeHeader: 1.2rem;
 $basePadding: 1.2rem;
 
@@ -19,7 +23,11 @@ $fontUI:
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
     "Fira Sans", "Droid Sans", "Helvetica Neue", 
     sans-serif;
+<<<<<<< HEAD
 $fontBody: "freight-text-pro", georgia, serif;
+=======
+$fontBody: "freight-text-pro";
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 
 .left {float:left;}
 .right {float: right;}
@@ -47,7 +55,11 @@ body {
 
 html {
   font-family: $fontUI;
+<<<<<<< HEAD
   font-size: 18px;
+=======
+  font-size: 17px;
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
   line-height: 1.5;
 
   @media (min-width: 38em) {
@@ -95,7 +107,11 @@ img {
   margin: 1rem auto;
 
   &.heroImg {
+<<<<<<< HEAD
     margin: 0 0 $basePadding*3;
+=======
+    margin: 0;
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
   }
 
 }

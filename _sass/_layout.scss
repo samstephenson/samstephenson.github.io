@@ -24,14 +24,36 @@ section {
 }
 
 footer {
+<<<<<<< HEAD
  	padding: $basePadding*4 0;
  	text-align: center;
  	background: #f9f9f9
+=======
+ 	padding: $basePadding $basePadding 2.4rem;
+ 	vertical-align: middle;
+
+ 	@media (max-width: 30em) {
+    
+		small .left, small .right {
+			float: none;
+			width: 100%;
+			text-align: center;
+			padding: .325rem;
+		}
+
+  	}
+
+
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 }
 
 .page {
 
+<<<<<<< HEAD
 	padding-bottom: $basePadding*4;
+=======
+	padding: 4rem 0;
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 
 	p, h1, h2, h3, h4, ul, img, iframe {
 		width: 100%;
@@ -81,6 +103,7 @@ footer {
 	padding: 1rem;
 	text-align: center;
 	display: block;
+<<<<<<< HEAD
 }
 
 ul.homepageProjects  {
@@ -127,4 +150,65 @@ ul.homepageProjects  {
 			flex-direction: row-reverse;
 		}
 
+=======
+}
+
+ul.homepageProjects  {
+
+	padding: 0;
+	margin: 3rem 0;
+
+	li {
+		width: 100%;
+		vertical-align: top;	
+		max-width: ($colWidth - 4) / 2 ;
+		display: inline-block;
+		font: $typeUI $fontUI;
+		margin-bottom: 4rem;
+		line-height: 1.4;
+
+		&:nth-child(2n) {
+				margin-right: 0;
+		}
+
+		img {
+			margin: 0;
+			width: 100%;
+			position: absolute;
+ 			-webkit-transition: 0.1s ease;
+			transition: 0.1s ease;
+			top: 0;
+			left: 0;
+		}
+
+		a {
+			color: black;
+		}
+
+		a:hover {
+			/*color: $linkColor;*/
+
+			img {
+				-webkit-transform: scale(1.02);
+  				transform: scale(1.02);
+			}
+		}
+
+	}
+
+	@media (min-width: 30em) {
+		li {
+			margin-right: 1.2rem;
+		}
+	}
+
+}
+
+.zoomContainer {
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 .8rem 0;
+	width: inherit;
+	height: 9.5rem;
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 }

@@ -4,6 +4,7 @@ title: Home
 class: homepage
 ---
 
+<<<<<<< HEAD
   <ul class="homepageProjects">
     {% for post in site.posts %}
 
@@ -23,3 +24,26 @@ class: homepage
 
     {% endfor %}
   </ul>
+=======
+  <section>
+  <H1>Hey. I'm Sam, a digital designer at Falmouth University</H1>
+  <p>Seeking new adventures with design teams in London or the San Fransisco Bay Area, starting summer 2016.</p>
+
+  <p>More info <a href="/about.html">here.</a></p>
+</section>
+
+<section>
+  <small class="smallCaps">PROJECTS</small>
+  <ul class="homepageProjects">
+    {% for post in site.posts %}
+
+      <li><a href="{{ post.url }}" title="{{ post.title }}">
+      <div class="zoomContainer"><img src="{{ post.thumb }}"></div>
+        {{ post.title }}
+      </a></li>
+
+
+    {% endfor %}
+  </ul>
+</section>
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77

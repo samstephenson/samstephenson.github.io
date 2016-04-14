@@ -3,6 +3,7 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
+<<<<<<< HEAD
   text-align: center;
   margin: $basePadding*2 0;
 
@@ -12,10 +13,17 @@
       font-weight: black;
 
       a {color: black;}
+=======
+  margin-bottom: 0;
+  padding: 1.2rem 1.2rem 0;
+  
+  .topNav {
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
   }
 
 }
 
+<<<<<<< HEAD
 .masthead nav {
   font-size: $typeUI;
 
@@ -28,6 +36,24 @@
   a.active, a.active:hover {
     color: $lightGrey;
   }
+=======
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  font-family: $fontUI;
+  font-weight: 600;
+  font-size: 1rem;
+
+  @media (min-width: 38rem) {
+    font-size: 1.2rem;
+  }
+
+  a {
+    color: black;
+  }
+
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
   a:hover {
     color: $linkColor;
   }
@@ -67,6 +93,66 @@
 
 }
 
+<<<<<<< HEAD
+=======
+.homepage .masthead-title {
+  display: none;
+}
+
+.masthead nav {
+  font-size: $typeUI;
+  float: right;
+  margin-top: -$basePadding + .2rem;
+
+  a {
+    list-style-type: none;
+    display: inline-block;
+    color: $darkGrey;
+    padding: $basePadding 0.8rem;
+  }
+  a.active, a.active:hover {
+    color: $lightGrey;
+  }
+  a:hover {
+    color: $linkColor;
+  }
+
+  a:last-child {
+    padding-right: .4rem;
+  }
+
+}
+
+.projectWrapper {
+  font-size: $typeUI;
+  position: relative;
+
+  button {
+    position: absolute;
+    z-index: 10;
+    top: 2.4rem;
+    vertical-align: middle;
+    width: 2.4rem;
+    height: 3.6rem;
+    background: 
+      url("/images/svg/arrow.svg") no-repeat 0.9rem,
+      rgba(255,255,255,0.95);
+    border: none;
+    border-left: 1px solid black;
+    cursor: pointer;
+
+    &.scrollRight {
+      right: 0;
+    }
+
+    &.scrollLeft {
+      left: 0;
+      transform: rotate(180deg);
+    }
+  }
+
+}
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 
 .projectHeader {
     padding: $basePadding $basePadding 0;
@@ -83,16 +169,27 @@
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   background: rgba(0,0,0,0);
+<<<<<<< HEAD
   padding:0 0 1rem;
   margin: auto;
+=======
+  margin:0;
+  padding:0 0 1rem;
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 
   li {
     font-size: 0.8rem;
     display: inline-block;
     white-space: initial;
+<<<<<<< HEAD
     width: 12rem;
     height: 4rem;
     padding: $basePadding;
+=======
+    width: 10rem;
+    height: 4rem;
+    padding: .6rem $basePadding;
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
     vertical-align: middle;
     line-height: 1.25;
 
@@ -106,11 +203,14 @@
 
     a {
       color: black;
+<<<<<<< HEAD
 
       strong {
         display: inline-block;
       }
 
+=======
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
     }
 
     a:hover {

@@ -1,5 +1,6 @@
 
 <div class="projectWrapper">
+<<<<<<< HEAD
 	<ul class="projectNav">
 	  {% for post in site.categories['work'] %}
 	    <li {% if post.url == page.url %} class="active" {% endif %}>
@@ -9,6 +10,17 @@
 	      </a>
 	    </li>
 	  {% endfor %}
+=======
+	<small class="projectHeader">PROJECTS</small>
+
+	<ul class="projectNav">
+	  {% for post in site.categories['work'] %}
+	    <li {% if post.url == page.url %} class="active" {% endif %}>
+	      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	    </li>
+	  {% endfor %}
+	  	<li><a href="https://www.behance.net/samstephenson" title="Sam Stephenson on Behance" target="new">More on Behance.net <sup><i class="fa fa-external-link"></i></sup></a></li>
+>>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 	</ul>
 	<button class="scrollLeft"></button>
 	<button class="scrollRight"></button>
