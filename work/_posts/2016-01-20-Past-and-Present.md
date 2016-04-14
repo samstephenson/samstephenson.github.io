@@ -5,7 +5,7 @@ subtitle: Typographic publication for the Royal Institute of Philosophy
 status: Completed 2015
 tags: print typography
 img: /images/past-present/pastpresent01@2x.jpg
-thumb: /images/past-present/squarethumbs.jpg
+thumb: /images/past-present/squarethumbs@0,5x.jpg
 
 ---
 
