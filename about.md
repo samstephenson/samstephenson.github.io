@@ -7,11 +7,7 @@ title:
 
 **I’m Sam Stephenson**, a digital designer and student at Falmouth University. I study graphic design, but have long been fond of the the web and digital products. I have a passion for good, ideas-driven design; crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
 
-<<<<<<< HEAD
 I’ll be graduating in June this year, and am seeking oppurtunities with digital product agencies and tech companies.
-=======
-I’ll be graduating in June this year, and am seeking oppurtunities with start-ups and digital agencies in London or San Francisco.
->>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 
 If you’ve enquiries or advice, or just want to chat, I’d love to talk. You’ll find me on [Twitter](https://twitter.com/samstephenson1), [Behance](https://www.behance.net/samstephenson) and [Spotify](https://play.spotify.com/user/11120014586), and can [send an email here.](mailto:sam@stephenson.net)
 
@@ -42,22 +38,8 @@ Last year, I played stuntman in an action sports film for my friend [Al](https:/
 
 ## About this site
 
-<<<<<<< HEAD
 It's a static site complied by [Jekyll](http://jekyllrb.com/) and served through [Github pages](https://pages.github.com/). Mark Otto's [*Poole*](https://github.com/poole/poole) helped get things off the ground. 
 
 Headings and UI text are rendered in the system font. Body copy in [Freight Text Pro](https://typekit.com/fonts/freight-text-pro), served via Typekit.
 
 Photo above by [Jonathan Vivaas Kise](http://www.jonathanvk.com/)
-=======
-I've built this latest incarnation of my personal site to give a sort of all-under-one-roof summary of me as a designer. It's very much a work in progress, please forgive the rough edges as I tighten things up. :)
-
-It's a static site complied by [Jekyll](http://jekyllrb.com/) and served through [Github pages](https://pages.github.com/). Mark Otto's [*Poole*](https://github.com/poole/poole) helped get things off the ground. 
-
-This is my first encounter with Jekyll, so far it seems great. Much simpler than working with Wordpress. Liquid, it's templating language, is a doddle to learn too.
-
-I'm keeping an [updated list of issues and things to do here…](https://workflowy.com/s/tOSIWFifHd)
-
-Headings and UI text are rendered in the system font. Body copy in [Freight Text Pro](https://typekit.com/fonts/freight-text-pro), served via Typekit.
-
-The photo atop this page was taken by [Jonathan Vivaas Kise](http://www.jonathanvk.com/)
->>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77

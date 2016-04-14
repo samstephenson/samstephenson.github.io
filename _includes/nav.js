@@ -24,11 +24,7 @@ $(document).ready(function() {
 
 	function checkButtons() {
 
-<<<<<<< HEAD
 		var projectsWidth = 288;
-=======
-		var projectsWidth = 240;
->>>>>>> c7734c785eafdd6badc42bb7980e744d151c4d77
 
 		$(".projectNav:first li").each(function() {
 		      projectsWidth = projectsWidth + $(this).width();
