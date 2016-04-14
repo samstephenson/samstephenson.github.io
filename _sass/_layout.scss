@@ -118,7 +118,6 @@ ul.homepageProjects  {
 			margin: 0;
 
 			div {
-				margin: auto;
 				flex-grow: 1;
 				width: 50%;
 				line-height: 1.4;
@@ -129,6 +128,11 @@ ul.homepageProjects  {
 				max-width: $colWidth/2;
 				margin: auto;
 			}
+
+			div .projectImage {
+				background: #f6f6f6;
+			}
+
 
 			img {
 				margin: 0;
