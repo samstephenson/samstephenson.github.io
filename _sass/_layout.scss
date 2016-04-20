@@ -26,7 +26,12 @@ section {
 footer {
  	padding: $basePadding*4 0;
  	text-align: center;
- 	background: #f9f9f9
+ 	background: #f9f9f9;
+ 	margin: $basePadding*2 0 0;
+
+ 	@media (min-width: 38rem) {
+		margin: 0;
+	}
 }
 
 .page {
@@ -145,6 +150,7 @@ ul.homepageProjects  {
 			}
 
 			a {
+				display: block;
 				color: black;
 				font-family: $fontUI;
 				font-size: $typeUI;
