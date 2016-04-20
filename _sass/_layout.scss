@@ -44,10 +44,14 @@ footer {
 
 	img {
 		margin: 2.7rem auto .9rem;
-		width: auto;
+		width: 100%;
 		padding: 0;
 		max-width: $colWidth - 4rem;
 		max-height: $colWidth;
+
+		@media (min-width: 30rem) {
+			width: auto;
+		}
 	}
 
 	h1 {
@@ -90,16 +94,31 @@ ul.homepageProjects  {
 
 		li {
 			display: flex;
-			flex-direction: row;
 			width: 100%;
 			margin: 0;
+			flex-direction: column-reverse;
+
+			@media (min-width: 38em) {
+
+				flex-direction: row;
+
+				&:nth-child(even) {
+					flex-direction: row-reverse;
+				}
+
+			}
 
 			div {
-				margin: auto;
-				flex-grow: 1;
-				width: 50%;
+				margin: $basePadding 0;
 				line-height: 1.4;
 				height: 100%;
+
+				@media (min-width: 30em) {
+
+					width: 50%;
+					margin: auto;
+
+				}
 			}
 
 			div .projectDetail {
@@ -108,6 +127,7 @@ ul.homepageProjects  {
 
 				h2 {
 					margin-top: 0;
+					margin-bottom: 0.8rem;
 				}
 
 			}
@@ -131,10 +151,6 @@ ul.homepageProjects  {
 				font-weight: 600;
 			}
 
-		}
-
-		li:nth-child(even) {
-			flex-direction: row-reverse;
 		}
 
 }
