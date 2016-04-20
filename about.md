@@ -5,9 +5,9 @@ title:
 
 ![Photo: Jonathan Vivaas Kise](/images/sam1.jpg)
 
-**I’m Sam Stephenson**, a digital designer and student at Falmouth University. I study graphic design, but have long been fond of the the web and digital products. I have a passion for good, ideas-driven design; crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
+**I’m Sam Stephenson**, a digital designer and student at Falmouth University. I study graphic design, but have long been fond of the web and digital products. I have a passion for good, ideas-driven design; crafting experiences with empathy and respect for human behaviour. Affecting lives for the better.
 
-I’ll be graduating in June this year, and am seeking oppurtunities with digital product agencies and tech companies.
+I’ll be graduating in June this year, and am seeking opportunities with digital product agencies and tech companies.
 
 If you’ve enquiries or advice, or just want to chat, I’d love to talk. You’ll find me on [Twitter](https://twitter.com/samstephenson1), [Behance](https://www.behance.net/samstephenson) and [Spotify](https://play.spotify.com/user/11120014586), and can [send an email here.](mailto:sam@stephenson.net)
 
@@ -16,7 +16,7 @@ If you’ve enquiries or advice, or just want to chat, I’d love to talk. You�
 [See my résumé](/resume.pdf) for a more comprehensive list.
 
 #### ASHA <small>August–September 2015</small>
-[ASHA](http://ashawebsite.co.uk/) are an award-winning graphic design agency based in Cheltenham, in the West of England. During a three-week placement, I actively contributed to naming, brand strategy and logo development in the lead up to the first-stage client presentation for [*ChangeGrowLive*](http://ashawebsite.co.uk/news/asha-launches-rebrand-of-recovery-charity/). I designed a custom icon set for use in environmental graphics and branding material. Placement was extended at the request of ASHA.
+[ASHA](http://ashawebsite.co.uk/) are an award-winning graphic design agency based in Cheltenham, in the west of England. During a three-week placement, I actively contributed to naming, brand strategy and logo development in the lead up to the first-stage client presentation for [*ChangeGrowLive*](http://ashawebsite.co.uk/news/asha-launches-rebrand-of-recovery-charity/). I designed a custom icon set for use in environmental graphics and branding material. Placement was extended at the request of ASHA.
 
 #### OgilvyChange <small>August 2015</small>
 [OgilvyChange](http://ogilvychange.com/) are a specialist behaviour-change division of the [Ogilvy & Mather](https://ogilvy.co.uk/) advertising group. I was the only designer to secure a place on their summer school. With a small team of psychology graduates, I presented ideas and behavioural ‘nudges’ to encourage the recycling of clothes in the home and in-store . I designed the presentation which was forwarded to a national charity for potential implementation.
