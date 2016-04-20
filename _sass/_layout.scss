@@ -120,7 +120,7 @@ ul.homepageProjects  {
 				display: block;
 
 				&:first-child {
-					webkit-flex:1 0 auto;
+					flex:1 0 auto;
 				}
 
 				@media (min-width: 30em) {
