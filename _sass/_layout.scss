@@ -103,10 +103,6 @@ ul.homepageProjects  {
 			margin: 0;
 			flex-direction: column-reverse;
 
-			&:first-child {
-				webkit-flex:1 0 auto;
-			}
-
 			@media (min-width: 38em) {
 
 				flex-direction: row;
@@ -122,6 +118,10 @@ ul.homepageProjects  {
 				line-height: 1.4;
 				height: 100%;
 				display: block;
+
+				&:first-child {
+					webkit-flex:1 0 auto;
+				}
 
 				@media (min-width: 30em) {
 
