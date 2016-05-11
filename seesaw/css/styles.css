@@ -1,0 +1,86 @@
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	height: 100%;
+  	min-height: 100vh;
+  	color: #003844;
+  	margin: 0;
+  	padding: 0;
+}
+
+h1 {
+	font-family: "effra";
+	font-size: 2.5rem;
+	font-weight: normal;
+	margin: 3rem;
+}
+
+#background {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	opacity: 0.1;
+	z-index: -1;
+}
+
+#container {
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.col {
+}
+
+.col.left {
+	margin-right: 6rem;
+}
+
+input {
+  appearance: none;
+  box-shadow: none;
+  font-size: 18px;
+  text-align: center;
+  color: #12442F;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(90deg, #49F1AD 0%, #37E394 100%);
+  border-radius: 24px;
+  border: none;
+  transition: width 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #268D60;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #268D60;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:  #268D60;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #268D60;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#logo {
+	transform: translate(-10px,0)
+}
