@@ -84,3 +84,9 @@ button:focus {
 #logo {
 	transform: translate(-10px,0)
 }
+
+
+footer {
+	margin-top: 3rem;
+	opacity: 0.5;
+}
