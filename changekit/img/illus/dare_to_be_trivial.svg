@@ -1,0 +1,31 @@
+<svg width="144" height="144" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>dare_to_be_trivial</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3681 -237)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M 3681 237L 3825 237L 3825 381L 3681 381L 3681 237Z" fill="#FFFFFF"/>
+</mask>
+<g id="dare_to_be_trivial" style="mix-blend-mode:normal;" mask="url(#mask0_alpha)" figma:type="frame">
+<g id="Group 22" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Fill 311" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(3747.56 324.546)" fill="#FFF5D6" fill-opacity="0.2" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 313" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(3705 310.691)" fill="#FFF5D6" fill-opacity="0.2" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 315" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(3708.96 325.536)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 317" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(3758.44 281)" fill="#FFF5D6" fill-opacity="0.2" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 11.8763L 6.43299 0L 12.866 11.8763L 0 11.8763Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 22.9404L 95.3425 0L 96 2.79161L 0.657459 25.732L 0 22.9404Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 5.59444 0L 0 1.33348L 1.3334 6.92783L 6.92783 5.59477L 5.59444 0Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 37.6082 30.3703L 7.23798 37.6082L 0 7.23798L 30.3703 0L 37.6082 30.3703Z"/>
+</defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="144" height="144" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>anchoring</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4515 -237)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M 4515 237L 4659 237L 4659 381L 4515 381L 4515 237Z" fill="#FFFFFF"/>
+</mask>
+<g id="anchoring" style="mix-blend-mode:normal;" mask="url(#mask0_alpha)" figma:type="frame">
+<g id="Group 29" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Fill 395" style="mix-blend-mode:normal;" opacity="0.2" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(4539 289.981)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 397" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(4552.98 285.32)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 398" style="mix-blend-mode:normal;" opacity="0.2" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(4571.62 276)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 399" style="mix-blend-mode:normal;" opacity="0.2" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(4552.98 304.893)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 400" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(4571.62 304.893)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 401" style="mix-blend-mode:normal;" opacity="0.2" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(4598.65 304.893)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 9.32039L 9.32039 9.32039L 9.32039 0L 0 0L 0 9.32039Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 13.9806L 13.9806 13.9806L 13.9806 0L 0 0L 0 13.9806Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 23.301L 23.301 23.301L 23.301 0L 0 0L 0 23.301Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 0 37.2816L 36.3495 37.2816L 36.3495 0L 0 0L 0 37.2816Z"/>
+</defs>
+</svg>
