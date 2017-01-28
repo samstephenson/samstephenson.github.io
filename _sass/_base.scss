@@ -6,7 +6,7 @@
 
 $colWidth: 38rem;
 $wideWidth: $colWidth + 16;
-$typeUI: 0.8rem;
+$typeUI: 0.9rem;
 $typeHeader: 1.2rem;
 $basePadding: 1.2rem;
 
@@ -19,7 +19,7 @@ $fontUI:
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
     "Fira Sans", "Droid Sans", "Helvetica Neue", 
     sans-serif;
-$fontBody: "freight-text-pro";
+$fontBody: "freight-text-pro", georgia, serif;
 
 .left {float:left;}
 .right {float: right;}
@@ -47,11 +47,11 @@ body {
 
 html {
   font-family: $fontUI;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.5;
 
   @media (min-width: 38em) {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   height: 100%;
@@ -95,7 +95,7 @@ img {
   margin: 1rem auto;
 
   &.heroImg {
-    margin: 0;
+    margin: 0 0 $basePadding*3;
   }
 
 }

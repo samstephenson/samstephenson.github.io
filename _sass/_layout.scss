@@ -24,26 +24,19 @@ section {
 }
 
 footer {
- 	padding: $basePadding $basePadding 2.4rem;
- 	vertical-align: middle;
+ 	padding: $basePadding*4 0;
+ 	text-align: center;
+ 	background: #f9f9f9;
+ 	margin: $basePadding*2 0 0;
 
- 	@media (max-width: 30em) {
-    
-		small .left, small .right {
-			float: none;
-			width: 100%;
-			text-align: center;
-			padding: .325rem;
-		}
-
-  	}
-
-
+ 	@media (min-width: 38rem) {
+		margin: 0;
+	}
 }
 
 .page {
 
-	padding: 4rem 0;
+	padding-bottom: $basePadding*4;
 
 	p, h1, h2, h3, h4, ul, img, iframe {
 		width: 100%;
@@ -56,10 +49,14 @@ footer {
 
 	img {
 		margin: 2.7rem auto .9rem;
-		width: auto;
+		width: 100%;
 		padding: 0;
 		max-width: $colWidth - 4rem;
 		max-height: $colWidth;
+
+		@media (min-width: 30rem) {
+			width: auto;
+		}
 	}
 
 	h1 {
@@ -98,58 +95,73 @@ footer {
 ul.homepageProjects  {
 
 	padding: 0;
-	margin: 3rem 0;
+	margin: 0;
 
-	li {
-		width: 100%;
-		vertical-align: top;	
-		max-width: ($colWidth - 4) / 2 ;
-		display: inline-block;
-		font: $typeUI $fontUI;
-		margin-bottom: 4rem;
-		line-height: 1.4;
-
-		&:nth-child(2n) {
-				margin-right: 0;
-		}
-
-		img {
-			margin: 0;
+		li {
+			display: flex;
 			width: 100%;
-			position: absolute;
- 			-webkit-transition: 0.1s ease;
-			transition: 0.1s ease;
-			top: 0;
-			left: 0;
-		}
+			margin: 0;
+			flex-direction: column-reverse;
 
-		a {
-			color: black;
-		}
+			@media (min-width: 38em) {
 
-		a:hover {
-			/*color: $linkColor;*/
+				flex-direction: row;
+
+				&:nth-child(even) {
+					flex-direction: row-reverse;
+				}
+
+			}
+
+			div {
+				margin: $basePadding 0;
+				line-height: 1.4;
+				height: 100%;
+				display: block;
+
+				&:first-child {
+					flex:1 0 auto;
+				}
+
+				@media (min-width: 30em) {
+
+					width: 50%;
+					margin: auto;
+
+				}
+			}
+
+			div .projectDetail {
+				max-width: $colWidth/2;
+				margin: auto;
+
+				h2 {
+					margin-top: 0;
+					margin-bottom: 0.8rem;
+				}
+
+			}
+
+			div.projectImage {
+				background: #f6f6f6;
+			}
+
 
 			img {
-				-webkit-transform: scale(1.02);
-  				transform: scale(1.02);
+				margin: 0;
+				width: 100%;
+				-webkit-transition: 0.1s ease;
+				transition: 0.1s ease;
 			}
+
+			a {
+				display: block;
+				color: black;
+				font-family: $fontUI;
+				font-size: $typeUI;
+				font-weight: 600;
+			}
+
 		}
 
-	}
-
-	@media (min-width: 30em) {
-		li {
-			margin-right: 1.2rem;
-		}
-	}
-
-}
-
-.zoomContainer {
-	position: relative;
-	overflow: hidden;
-	margin: 0 0 .8rem 0;
-	width: inherit;
-	height: 9.5rem;
 }

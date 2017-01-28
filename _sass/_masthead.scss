@@ -3,56 +3,27 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  margin-bottom: 0;
-  padding: 1.2rem 1.2rem 0;
-  
-  .topNav {
+  text-align: center;
+  margin: $basePadding*2 0;
+
+  h2 {
+      margin: 0 0 $basePadding/2;
+      font-family: $fontBody;
+      font-weight: black;
+
+      a {color: black;}
   }
 
-}
-
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  display: inline-block;
-  font-family: $fontUI;
-  font-weight: 600;
-  font-size: 1rem;
-
-  @media (min-width: 38rem) {
-    font-size: 1.2rem;
-  }
-
-  a {
-    color: black;
-  }
-
-  a:hover {
-    color: $linkColor;
-  }
-
-  small {
-    font-size: 75%;
-    font-weight: 400;
-    color: #c0c0c0;
-    letter-spacing: 0;
-  }
-}
-
-.homepage .masthead-title {
-  display: none;
 }
 
 .masthead nav {
   font-size: $typeUI;
-  float: right;
-  margin-top: -$basePadding + .2rem;
 
   a {
     list-style-type: none;
     display: inline-block;
     color: $darkGrey;
-    padding: $basePadding 0.8rem;
+    padding: 0 1rem;
   }
   a.active, a.active:hover {
     color: $lightGrey;
@@ -61,23 +32,22 @@
     color: $linkColor;
   }
 
-  a:last-child {
-    padding-right: .4rem;
-  }
-
 }
 
 .projectWrapper {
   font-size: $typeUI;
   position: relative;
+  display: flex;
+  margin: -$basePadding*1.5 auto $basePadding;
+
 
   button {
     position: absolute;
     z-index: 10;
-    top: 2.4rem;
+    top: 0.2rem;
     vertical-align: middle;
     width: 2.4rem;
-    height: 3.6rem;
+    height: 5rem;
     background: 
       url("/images/svg/arrow.svg") no-repeat 0.9rem,
       rgba(255,255,255,0.95);
@@ -112,16 +82,16 @@
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   background: rgba(0,0,0,0);
-  margin:0;
   padding:0 0 1rem;
+  margin: auto;
 
   li {
     font-size: 0.8rem;
     display: inline-block;
     white-space: initial;
-    width: 10rem;
+    width: 12rem;
     height: 4rem;
-    padding: .6rem $basePadding;
+    padding: $basePadding;
     vertical-align: middle;
     line-height: 1.25;
 
@@ -135,6 +105,11 @@
 
     a {
       color: black;
+
+      strong {
+        display: inline-block;
+      }
+
     }
 
     a:hover {

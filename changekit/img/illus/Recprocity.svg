@@ -1,0 +1,13 @@
+<svg width="144" height="144" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Recprocity</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3403 460)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M 3403 -460L 3547 -460L 3547 -316L 3403 -316L 3403 -460Z" fill="#FFFFFF"/>
+</mask>
+<g id="Recprocity" style="mix-blend-mode:normal;" mask="url(#mask0_alpha)" figma:type="frame">
+</g>
+</g>
+<defs>
+</defs>
+</svg>
