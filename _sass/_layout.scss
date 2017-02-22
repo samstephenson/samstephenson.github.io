@@ -14,11 +14,41 @@ section {
 	margin: 4rem 0;
 }
 
+.homepage {
+	
+}
+
 .homepage section {
 	margin: 6rem 0;
 
 	@media (min-width: 38rem) {
 		margin: 10rem 0;
+	}
+
+}
+
+.homepage .homepageSplash {
+	max-width: 48rem;
+	margin: 4rem auto;
+	padding: 0 $basePadding;
+
+	@media (min-width: 38rem) {
+		margin: 30vh auto;
+	}
+
+	h1, h2 {
+		font-family: $fontBody;
+		font-size: $fontUI;
+
+		@media (min-width: 38rem) {
+			font-size: 3rem;
+			line-height: 3rem;
+		}
+
+	}
+
+	h4 {
+		font-weight: normal;
 	}
 
 }
@@ -95,7 +125,9 @@ footer {
 ul.homepageProjects  {
 
 	padding: 0;
-	margin: 0;
+	margin: 0 auto 8rem;
+	max-width: 64rem;
+
 
 		li {
 			display: flex;
@@ -106,9 +138,15 @@ ul.homepageProjects  {
 			@media (min-width: 38em) {
 
 				flex-direction: row;
+				margin: 4rem 0;
 
 				&:nth-child(even) {
 					flex-direction: row-reverse;
+
+					div .projectDetail {
+						margin-left: 4rem;
+					}
+
 				}
 
 			}
@@ -125,19 +163,21 @@ ul.homepageProjects  {
 
 				@media (min-width: 30em) {
 
-					width: 50%;
+					width: 60%;
 					margin: auto;
 
 				}
 			}
 
 			div .projectDetail {
-				max-width: $colWidth/2;
-				margin: auto;
+				margin: auto 0;
 
 				h2 {
+					font-family: $fontUI;
+					font-size: $typeUI;
+					font-weight: normal;
 					margin-top: 0;
-					margin-bottom: 0.8rem;
+					margin-bottom: 1rem;
 				}
 
 			}

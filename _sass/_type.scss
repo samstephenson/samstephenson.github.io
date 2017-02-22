@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
+  line-height: 2.5rem;
   text-align: center;
   margin: 4rem auto;
   color: black;
@@ -52,7 +53,7 @@ p {
   font-family: $fontBody;
 
   @media (min-width: 30em) {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 
 }

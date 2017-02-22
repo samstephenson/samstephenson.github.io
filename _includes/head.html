@@ -40,17 +40,10 @@
 <body class="{{ page.class }}">
 
     <header class="masthead">
-        <h2 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <!--<small>{{ site.tagline }}</small>-->
-        </h2> 
 
         <nav>
-          <a 
-            href="{% for post in site.posts limit:1 %}{{ post.url }}{% endfor%}" 
-            class="{% if page.categories contains 'work' %}active{% endif %} work"
-          >Work</a>
-          <a href="/about.html" {% if page.url == '/about.html' %} class="active"{% endif %}>About</a>
+          <h1>Sam Stephenson</h1>
+          <a href="mailto:sam@stephenson.net">sam@stephenson.net</a>
         </nav>
 
     </header>

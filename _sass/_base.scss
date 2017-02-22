@@ -6,13 +6,13 @@
 
 $colWidth: 38rem;
 $wideWidth: $colWidth + 16;
-$typeUI: 0.9rem;
+$typeUI: 1rem;
 $typeHeader: 1.2rem;
 $basePadding: 1.2rem;
 
 $darkGrey: #111;
 $lightGrey: #aaa;
-$linkColor: #778282;
+$linkColor: #213ac3;
 
 $fontUI: 
     -apple-system, BlinkMacSystemFont, 
@@ -47,13 +47,8 @@ body {
 
 html {
   font-family: $fontUI;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
-
-  @media (min-width: 38em) {
-    font-size: 21px;
-  }
-
   height: 100%;
 }
 

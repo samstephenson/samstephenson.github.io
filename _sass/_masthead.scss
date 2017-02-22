@@ -3,28 +3,29 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  text-align: center;
-  margin: $basePadding*2 0;
-
-  h2 {
-      margin: 0 0 $basePadding/2;
-      font-family: $fontBody;
-      font-weight: black;
-
-      a {color: black;}
-  }
-
 }
 
 .masthead nav {
   font-size: $typeUI;
+  margin: $basePadding*4 $basePadding;
+
+  @media (min-width: 30em) {
+    display: flex;
+    justify-content: space-between;
+    margin: $basePadding*2 $basePadding*2;
+  }
+
+  h1 {
+    font-size: $typeUI;
+    font-family: $fontUI;
+    margin: 0;
+    line-height: 1.5rem;
+  }
 
   a {
     list-style-type: none;
-    display: inline-block;
-    color: $darkGrey;
-    padding: 0 1rem;
-  }
+    display: block;
+  } 
   a.active, a.active:hover {
     color: $lightGrey;
   }

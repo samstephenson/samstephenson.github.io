@@ -7,9 +7,14 @@ $(document).ready(function() {
 
 	var cards = $('#cardWrapper').children('div');
 	
-	var colors = ['#049873', '#A000FF', '#208790', '#6638F0', '#3C2D51']
+	var colors = ['#2F34ED', '#A000FF', '#208790', '#6638F0', '#3C2D51']
 	var colorIndex = 0
 	var colorIndexNext = colorIndex + 1
+
+	var input = $('.firstInput');
+
+	input.focus();
+	input.select();
 
 	function getRandomIntInclusive(min, max) {
 		min = Math.ceil(min);
@@ -33,13 +38,22 @@ $(document).ready(function() {
 	}
 
 	function updateBackgrounds() {
-		$('body').css("background", colors[colorIndex]);
+		$('body.bodyBrainstorm').css("background", colors[colorIndex]);
 		// $('#card-' + activeIndex + ' .modalWrapper').css("background", colors[colorIndex]);
 	}
 
+	function loadModal() {
+		$("#card-" + activeIndex + " .modal").appendTo ("div.modalWrapper");
+		$('#card-' + activeIndex + ' .modal').toggleClass("hidden");
+	}
 
-	$('.modal').toggleClass("hidden");
-	// $('.modalWrapper').hide();
+	function removeModal() {
+		// Replace current modal in parent div
+		$(".modalWrapper .modal").appendTo ("#card-" + activeIndex);
+		$('#card-' + activeIndex + ' .modal').toggleClass("hidden");
+	}
+
+
 
 	//Generate array and ID each card
 	$(cards).each(function() {
@@ -54,12 +68,17 @@ $(document).ready(function() {
 	activeIndex = 0;
 	cardsSeen.push(activeIndex);
 	$("#card-" + activeIndex).toggleClass("entering");
+	$('#card-' + activeIndex + ' .modal').toggleClass("hidden");
+
+	loadModal();
 	updateBackgrounds();
 	nextColor();
 
 
 	// Click refresh
 	$('.btn.refresh').click(function(e) {
+
+		removeModal();
 
 		// Reset at end
 		if (cardsSeen.length >= numberOfCards) {
@@ -83,6 +102,8 @@ $(document).ready(function() {
 		// Add last card to 'used' list
 		cardsSeen.push(activeIndex);
 
+		loadModal();
+
 		//Switch Background color
 		updateBackgrounds();
 		nextColor();
@@ -92,16 +113,30 @@ $(document).ready(function() {
 	$('.btn.info').click(function() {
 
 		// $('#card-' + activeIndex + ' .modalWrapper').show();
-		$('#card-' + activeIndex + ' .modal').toggleClass("hidden"); 
+		//$('#card-' + activeIndex + ' .modal').toggleClass("hidden"); 
 
 	});
 
 	$('.btn.close').click(function() {
 
-		$('#card-' + activeIndex + ' .modal').toggleClass("hidden");
+		//$('#card-' + activeIndex + ' .modal').toggleClass("hidden");
 		// $('#card-' + activeIndex + ' .modalWrapper').hide();
 
 	});
+
+	$('.btn.start').click(function() {
+		$('#overlay').fadeOut();
+		$('.modalWrapper .modal').toggleClass("hidden");
+
+	})
+
+	$('.problemStatement').click(function() {
+		$('#overlay').fadeIn();
+		$('.modalWrapper .modal').toggleClass("hidden");
+	})
+
+	
+	$('input').autoGrowInput({ minWidth: 100, maxWidth: 600, comfortZone: 0 });
 
 
 

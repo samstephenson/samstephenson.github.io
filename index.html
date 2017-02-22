@@ -4,6 +4,12 @@ title: Home
 class: homepage
 ---
 
+  <article class="homepageSplash">
+    <h1>An inquisitive mind making complex products intuitive.</h1>
+    <h4>I’m Sam, a San Francisco based product designer. Former experience designer at NewDealDesign.</h4>
+    <h4><a href="mailto:sam@stephenson.net">Currently available for freelance work</a></h4>
+  </article>
+
   <ul class="homepageProjects">
     {% for post in site.posts %}
 
@@ -11,7 +17,7 @@ class: homepage
         <div >
           <div class="projectDetail">
             <h2>{{ post.title }}</h2>
-            <p>{{ post.subtitle }}</p>
+            <h1>{{ post.subtitle }}</h1>
             <a href="{{ post.url }}" title="{{ post.title }}">Read case study</a>
           </div>
         </div>
@@ -23,3 +29,13 @@ class: homepage
 
     {% endfor %}
   </ul>
+
+  <article class="page">
+
+    <img src="/images/sam1.jpg" alt="photo: Jonathan Vivaas Kise" />
+
+    <p>I’m Sam Stephenson**, San Francisco based product designer hailing from the UK. Former experience designer at <a href="http://newdealdesign.com" alt="NewDealDesign">NewDealDesign</a></p>
+
+    <p>If you’ve an enquiry, or just want to chat… I'd love to talk! You’ll find me on <a href="https://twitter.com/samstephenson1">Twitter here</a>, and can <a href="mailto:sam@stephenson.net">send an email here.</a></p>
+
+  </article>
