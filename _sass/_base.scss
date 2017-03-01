@@ -12,14 +12,14 @@ $basePadding: 1.2rem;
 
 $darkGrey: #111;
 $lightGrey: #aaa;
-$linkColor: #778282;
+$linkColor: #16bf92;
 
 $fontUI: 
-    -apple-system, BlinkMacSystemFont, 
+    "ff-dagny-web-pro", -apple-system, BlinkMacSystemFont, 
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
     "Fira Sans", "Droid Sans", "Helvetica Neue", 
     sans-serif;
-$fontBody: "freight-text-pro", georgia, serif;
+$fontBody: "ff-dagny-web-pro", georgia, serif;
 
 .left {float:left;}
 .right {float: right;}
@@ -43,6 +43,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  min-height: 100%;
 }
 
 html {
@@ -62,6 +63,8 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 iframe {
@@ -72,6 +75,7 @@ iframe {
 a {
   color: $linkColor;
   text-decoration: none;
+  cursor: pointer;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
@@ -82,6 +86,20 @@ a {
   strong {
     color: inherit;
   }
+}
+
+a.button {
+  padding: 0.5rem 1rem;
+  border: 1px solid $linkColor;
+  color: $linkColor;
+  font-size: $typeUI;
+  border-radius: .25rem;
+  display: inline-block;
+}
+
+a.button:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease;
 }
 
 .active a:hover, .active:hover {
@@ -95,7 +113,7 @@ img {
   margin: 1rem auto;
 
   &.heroImg {
-    margin: 0 0 $basePadding*3;
+    margin: 0 0 4.5rem;
   }
 
 }
