@@ -6,6 +6,7 @@ layout: portfolio
 <html lang="en">
 
   {% include head.html %}
+  {% include masthead.html %}
 
   	 {% if page.img %}
         <img src="{{ page.img }}" alt="{{ page.title }}" class="heroImg">
@@ -20,7 +21,9 @@ layout: portfolio
 			{{ content }}
 		</article>
 
-      {% include footer.html %}
+    {% include homepageStuff.html %}
+    {% include aboutWork.html %}
+    {% include footer.html %}
     
 
   </body>

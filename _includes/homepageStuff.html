@@ -1,0 +1,19 @@
+<ul class="homepageProjects">
+  {% for post in site.posts %}
+
+    <li>
+      <div >
+        <div class="projectDetail">
+          <p>{{ post.title }}</p>
+          <h2>{{ post.subtitle }}</h2>
+          <a href="{{ post.url }}" title="{{ post.title }}" class="button">Read Case Study</a>
+        </div>
+      </div>
+      <div class="projectImage">
+        <a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.thumb }}"></a>
+      </div>
+    </li>
+
+
+  {% endfor %}
+</ul>

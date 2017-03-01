@@ -12,6 +12,7 @@
 
 section {
 	margin: 4rem 0;
+	display: flex;
 }
 
 .homepage section {
@@ -28,17 +29,26 @@ footer {
  	text-align: center;
  	background: #f9f9f9;
  	margin: $basePadding*2 0 0;
+ 	flex-grow: 1;
 
  	@media (min-width: 38rem) {
 		margin: 0;
 	}
 }
 
+.divider {
+	height: $basePadding;
+	width: 100%;
+	background: #fafafa;
+	box-shadow: inset 0 0 1px #ccc;
+}
+
 .page {
 
-	padding-bottom: $basePadding*4;
+	padding-bottom: $basePadding*8;
+	margin-bottom: $basePadding * 0;
 
-	p, h1, h2, h3, h4, ul, img, iframe {
+	p, h1, h2, h3, h4, ul, img, iframe, video {
 		width: 100%;
 		max-width: $colWidth;
 		margin-left: auto;
@@ -47,15 +57,24 @@ footer {
   		padding-right: 1rem;
 	}
 
+	.full iframe {
+		max-width: 100%;
+	}
+
 	img {
 		margin: 2.7rem auto .9rem;
 		width: 100%;
 		padding: 0;
-		max-width: $colWidth - 4rem;
+		max-width: $colWidth;
 		max-height: $colWidth;
 
 		@media (min-width: 30rem) {
 			width: auto;
+		}
+
+		&.imgSmall {
+			max-width: $basePadding * 15;
+			margin-left: 0;
 		}
 	}
 
@@ -66,6 +85,12 @@ footer {
 	ul, ol, dl {
 		padding-left: 2.7rem;
 	}
+
+	.col {
+			margin: 0 auto 2.5rem;
+			padding-left: 1rem;
+			max-width: $colWidth;
+		}
 
 	@media (min-width: 30em) {
     
@@ -90,6 +115,12 @@ footer {
 	padding: 1rem;
 	text-align: center;
 	display: block;
+}
+
+.about.page {
+	padding: 12vh 0 $basePadding * 8;
+	background: #f9f9f9;
+	margin: 0;
 }
 
 ul.homepageProjects  {
@@ -135,9 +166,14 @@ ul.homepageProjects  {
 				max-width: $colWidth/2;
 				margin: auto;
 
+				p {
+					margin-bottom: 0;
+				}
+
 				h2 {
-					margin-top: 0;
-					margin-bottom: 0.8rem;
+					margin-top: 1rem;
+					margin-bottom: 1.5rem;
+					line-height: 2rem;
 				}
 
 			}
@@ -155,11 +191,6 @@ ul.homepageProjects  {
 			}
 
 			a {
-				display: block;
-				color: black;
-				font-family: $fontUI;
-				font-size: $typeUI;
-				font-weight: 600;
 			}
 
 		}
