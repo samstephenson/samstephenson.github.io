@@ -3,17 +3,14 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  text-align: center;
-  margin: $basePadding*2 0;
+  margin: $basePadding*2;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.2rem;
 
-  h2 {
-      margin: 0 0 $basePadding/2;
-      font-family: $fontBody;
-      font-weight: black;
-
-      a {color: black;}
+  a strong {
+    color: black;
   }
-
 }
 
 .masthead nav {

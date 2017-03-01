@@ -1,24 +1,9 @@
-{% include projectnav.html %}
-
 <footer class="footer">
     <small>
-
-        <a 
-            href="{% for post in site.posts limit:1 %}{{ post.url }}{% endfor%}" 
-            class="{% if page.categories contains 'work' %}active{% endif %} work"
-          >Work</a>
-           &nbsp;&middot;&nbsp;
-          <a href="/about.html" {% if page.url == '/about.html' %} class="active"{% endif %}>About</a>
-
-        <br/>
 
         <a href="mailto:sam@stephenson.net" title="Send me an email to say hi">Email</a>
         &nbsp;&middot;&nbsp;
         <a href="https://twitter.com/samstephenson1" title="@SamStephenson1">Twitter</a>
-        &nbsp;&middot;&nbsp;
-        <!--<a href="https://dribbble.com/SamStephenson1" title="Sam Stephenson on Dribbble">Dribbble</a>
-        &nbsp;&middot;&nbsp;-->
-        <a href="https://www.behance.net/samstephenson" title="Behance portfolio">Behance</a>
         &nbsp;&middot;&nbsp;
         <a href="https://uk.linkedin.com/in/stephensonsam" title="LinkedIn">LinkedIn</a>
 
