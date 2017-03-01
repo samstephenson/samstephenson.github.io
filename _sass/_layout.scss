@@ -86,13 +86,13 @@ footer {
 		padding-left: 2.7rem;
 	}
 
-	@media (min-width: 30em) {
-
-		.col {
+	.col {
 			margin: 0 auto 2.5rem;
 			padding-left: 1rem;
 			max-width: $colWidth;
 		}
+
+	@media (min-width: 30em) {
     
 		.wide {
 			margin: 3.6rem auto;
