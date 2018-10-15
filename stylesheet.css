@@ -6,7 +6,7 @@ body, html {
 
 #flexContainer {
     margin: 1.5em;
-    max-width: 32rem;
+    max-width: 34rem;
     display: block;
     flex-direction: column;
     /*justify-content: flex-end;*/
