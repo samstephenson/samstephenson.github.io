@@ -1,0 +1,46 @@
+body, html {
+    font-family: 'IBM Plex Mono', monospace;
+    height: 100%;
+    margin: 0;
+}
+
+#flexContainer {
+    padding: 0 4rem;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#flexContainer:before {
+    content: '';
+    display: block;
+    flex-grow: 1;
+}
+#flexContainer:after {
+    content: '';
+    display: block;
+    flex-grow: 2;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+    font-weight: normal;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 0 0rem;
+    padding: 0;
+}
+li {
+    text-indent: 0;
+}

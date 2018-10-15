@@ -1,0 +1,23 @@
+<svg width="144" height="144" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>positive_reinforcement</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3403 -470)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M 3403 470L 3547 470L 3547 614L 3403 614L 3403 470Z" fill="#FFFFFF"/>
+</mask>
+<g id="positive_reinforcement" style="mix-blend-mode:normal;" mask="url(#mask0_alpha)" figma:type="frame">
+<g id="Group 25" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Fill 328" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(3478.74 512)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Fill 329" style="mix-blend-mode:normal;" opacity="0.2" figma:type="vector-operation">
+<use xlink:href="#path1_fill" transform="translate(3423 524.48)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 24.128C 0 10.8024 10.8025 0 24.1282 0C 37.4536 0 48.2561 10.8024 48.2561 24.128C 48.2561 37.4536 37.4536 48.256 24.1282 48.256C 10.8025 48.256 0 37.4536 0 24.128ZM 10.356 22.8832L 21.1648 33.6926L 37.9001 16.9565L 35.4629 14.5192L 21.1648 28.8177L 12.7935 20.4463L 10.356 22.8832Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 24.128C 0 10.8025 10.8025 0 24.1279 0C 37.4536 0 48.2561 10.8025 48.2561 24.128C 48.2561 37.4536 37.4536 48.256 24.1279 48.256C 10.8025 48.256 0 37.4536 0 24.128ZM 30.5352 33.0337L 32.9919 30.616L 26.6167 24.1379L 33.105 17.6494L 30.6677 15.2125L 24.199 21.6812L 17.7207 15.0988L 15.2642 17.5165L 21.7615 24.1187L 15.1509 30.7292L 17.5884 33.1667L 24.1792 26.5753L 30.5352 33.0337Z"/>
+</defs>
+</svg>

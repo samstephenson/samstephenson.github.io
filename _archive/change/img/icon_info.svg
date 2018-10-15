@@ -1,0 +1,28 @@
+<svg width="56" height="56" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Icon_Info</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5064 -1603)" figma:type="canvas">
+<g id="Icon_Info" style="mix-blend-mode:normal;" figma:type="instance">
+<g id="Ellipse" style="mix-blend-mode:normal;" figma:type="ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(5064 1603)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(5064 1603)" fill="#FFFFFF" fill-opacity="0.3" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Vector 2 (Stroke)" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(5090.5 1627)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(5090 1619)" fill="#FFF5D6" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 56 28C 56 43.464 43.464 56 28 56C 12.536 56 0 43.464 0 28C 0 12.536 12.536 0 28 0C 43.464 0 56 12.536 56 28Z"/>
+<path id="path1_stroke_2x" d="M 54 28C 54 42.3594 42.3594 54 28 54L 28 58C 44.5685 58 58 44.5685 58 28L 54 28ZM 28 54C 13.6406 54 2 42.3594 2 28L -2 28C -2 44.5685 11.4315 58 28 58L 28 54ZM 2 28C 2 13.6406 13.6406 2 28 2L 28 -2C 11.4315 -2 -2 11.4315 -2 28L 2 28ZM 28 2C 42.3594 2 54 13.6406 54 28L 58 28C 58 11.4315 44.5685 -2 28 -2L 28 2Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 3 0L 3 15L 0 15L 0 0L 3 0Z"/>
+<path id="path3_fill" d="M 4 2C 4 3.10457 3.10457 4 2 4C 0.89543 4 0 3.10457 0 2C 0 0.89543 0.89543 0 2 0C 3.10457 0 4 0.89543 4 2Z"/>
+</defs>
+</svg>
