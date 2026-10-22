@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design &amp; Product: Who to Follow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f3ee;
+    --surface: #fffdf9;
+    --ink: #1d1b18;
+    --muted: #6b665e;
+    --line: #e3ddd3;
+    --accent: #2f5d3a;
+    --accent-soft: #e4ece4;
+    --chip: #f1e7d6;
+    --chip-ink: #6a4a12;
+    --serif: "Instrument Serif", Georgia, "Times New Roman", serif;
+    --sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151412;
+      --surface: #1d1c19;
+      --ink: #ece8e1;
+      --muted: #a39d93;
+      --line: #34312c;
+      --accent: #8fc29a;
+      --accent-soft: #24302676;
+      --chip: #3a3020;
+      --chip-ink: #e9c88a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151412;
+    --surface: #1d1c19;
+    --ink: #ece8e1;
+    --muted: #a39d93;
+    --line: #34312c;
+    --accent: #8fc29a;
+    --accent-soft: #24302676;
+    --chip: #3a3020;
+    --chip-ink: #e9c88a;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:hover { text-decoration-thickness: 2px; }
+
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+  header.hero { padding: 72px 0 32px; border-bottom: 1px solid var(--line); }
+  .eyebrow { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 16px; }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(44px, 8vw, 84px);
+    line-height: .95;
+    letter-spacing: -.01em;
+    margin: 0 0 24px;
+  }
+  h1 em { font-style: italic; color: var(--accent); }
+  .lede { font-size: 17px; max-width: 640px; color: var(--ink); margin: 0 0 20px; }
+  .meta { font-size: 13px; color: var(--muted); }
+
+  nav.toc {
+    position: sticky; top: 0; z-index: 5;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav.toc .wrap { display: flex; gap: 12px; align-items: center; padding-top: 10px; padding-bottom: 10px; }
+  nav.toc ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; flex: 1; }
+  nav.toc ul::-webkit-scrollbar { display: none; }
+  nav.toc a {
+    display: block; white-space: nowrap; font-size: 13px; color: var(--muted); text-decoration: none;
+    padding: 6px 10px; border-radius: 999px;
+  }
+  nav.toc a:hover { color: var(--ink); background: var(--surface); }
+  .search {
+    flex: 0 0 200px; font: inherit; font-size: 13px; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px;
+  }
+  .search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  main { padding: 16px 0 80px; }
+  section { padding-top: 56px; scroll-margin-top: 56px; }
+  h2 {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(30px, 4.5vw, 40px); line-height: 1.05; margin: 0 0 10px;
+  }
+  .kicker { color: var(--muted); max-width: 680px; margin: 0 0 20px; }
+  .count { font-family: var(--sans); font-size: 13px; color: var(--muted); margin-left: 8px; vertical-align: middle; }
+
+  .table-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; vertical-align: top; padding: 14px 16px; border-bottom: 1px solid var(--line); }
+  tr:last-child td { border-bottom: 0; }
+  th { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 500; background: transparent; }
+  td:first-child { font-weight: 600; width: 20%; }
+  td:nth-child(2) { width: 38%; }
+  td { color: var(--ink); }
+  td.why { color: var(--muted); }
+  tr.hidden { display: none; }
+  .note { font-size: 14px; color: var(--muted); margin: 14px 2px 0; }
+  .chip {
+    display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 6px;
+    background: var(--chip); color: var(--chip-ink); white-space: nowrap;
+  }
+  .tag { display: inline-block; font-size: 11px; font-weight: 500; padding: 1px 7px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin-left: 6px; vertical-align: 1px; white-space: nowrap; }
+  .empty { display: none; padding: 16px; color: var(--muted); font-size: 14px; }
+
+  footer { border-top: 1px solid var(--line); padding: 24px 0 48px; color: var(--muted); font-size: 13px; }
+
+  @media (max-width: 720px) {
+    header.hero { padding: 48px 0 24px; }
+    .search { flex-basis: 120px; }
+    table, thead, tbody, tr, td { display: block; width: 100% !important; }
+    thead { display: none; }
+    tr { padding: 14px 16px; border-bottom: 1px solid var(--line); }
+    tr:last-child { border-bottom: 0; }
+    td { border: 0; padding: 2px 0; }
+    td:first-child { font-size: 16px; padding-bottom: 4px; }
+    td.why { padding-top: 6px; }
+  }
+  @media print {
+    nav.toc { display: none; }
+    body { background: #fff; }
+    section { break-inside: avoid-page; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">A follow list · UK skew</p>
+    <h1>Design &amp; Product:<br><em>Who to Follow</em></h1>
+    <p class="lede">A starter follow list for plugging into where tech and product design are heading: people first, then the UK rooms worth being in, then what to read and listen to. It leans toward people who think out loud in public, since that is where the zeitgeist actually shows up.</p>
+    <p class="meta">Roles checked against public sources as of 22 October 2026 · Compiled by Sam Stephenson · People move often, so treat titles as a snapshot.</p>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sections">
+  <div class="wrap">
+    <ul>
+      <li><a href="#designers">Designers</a></li>
+      <li><a href="#design-engineers">Design engineers</a></li>
+      <li><a href="#ai">AI-era</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#uk-people">UK &amp; Ireland</a></li>
+      <li><a href="#uk-communities">UK communities</a></li>
+      <li><a href="#online">Online</a></li>
+      <li><a href="#reading">Read &amp; listen</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ul>
+    <input class="search" type="search" placeholder="Filter…" aria-label="Filter the list">
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="designers">
+    <h2>Product designers and design leaders</h2>
+    <p class="kicker">The biggest story of 2026 is designers shipping code instead of mocks, and these are the people most visibly working it out in public.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Who</th><th>Now</th><th>Why follow</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.diariobitcoin.com/startups-verticales/cursor-ficha-a-la-disenadora-de-claude-mientras-la-carrera-por-los-agentes-de-ia-se-intensifica/">Jenny Wen</a></td><td>Head of design at Cursor since July 2026; before that led design for Claude and Cowork at Anthropic, and FigJam and Slides at Figma</td><td class="why">Her <a href="https://www.lennysnewsletter.com/p/the-design-process-is-dead">Lenny's Podcast episode</a> on why the classic discover, mock, iterate process is breaking down is the essential listen of the year</td></tr>
+          <tr><td><a href="https://a16z.com/podcast/ryo-lu-cursor-ai-turns-designers-to-developers/">Ryo Lu</a></td><td>Design lead at Cursor; founding designer at Notion</td><td class="why">The poster child for designers who build; his vibe-coded ryOS is a reference point</td></tr>
+          <tr><td><a href="https://dealroom.co/investors/soleio-cuervo/">Soleio</a> <span class="tag">London</span></td><td>Designer and investor at Combine, a design-led seed fund; now based in London</td><td class="why">Early Facebook designer and first head of design at Dropbox; hosts the <a href="https://www.audible.de/podcast/ITEM_NAME/B0GMQ428SS">First of Kind</a> podcast with design pioneers</td></tr>
+          <tr><td><a href="https://config.figma.com/san-francisco/session/99c03fe0-dfa5-458f-9703-4c0d9615cbd4">Karri Saarinen</a></td><td>Co-founder and CEO, Linear</td><td class="why">The loudest voice for craft and quality over process; ex-Airbnb design systems and Coinbase</td></tr>
+          <tr><td><a href="https://brianlovin.com/">Brian Lovin</a></td><td>Product designer on Notion AI</td><td class="why">Built Notion's code-first prototype playground; writes candidly about how he works with agents</td></tr>
+          <tr><td><a href="https://digg.com/u/x/jsngr">Jordan Singer</a></td><td>Co-founder and CEO, Mainframe</td><td class="why">AI-native product tools; ex-Figma (via the Diagram acquisition) and Cash App</td></tr>
+          <tr><td><a href="https://play.anghami.com/episode/1292615607">Charlie Deets</a></td><td>Designer on Dia at The Browser Company</td><td class="why">Designed Safari, then Arc, now Dia: rare depth on designing browsers</td></tr>
+          <tr><td><a href="https://en.wikipedia.org/wiki/Dia_(web_browser)">Josh Miller</a></td><td>CEO, The Browser Company, now owned by Atlassian</td><td class="why">Thinks out loud about the browser as an AI work surface</td></tr>
+          <tr><td><a href="https://substack.com/@joulee">Julie Zhuo</a></td><td>Co-founder, Sundial; writes The Looking Glass</td><td class="why">Design leadership and product sense; ex-VP of product design at Facebook</td></tr>
+        </tbody>
+      </table>
+      <p class="empty">No matches in this section.</p>
+    </div>
+  </section>
+
+  <section id="design-engineers">
+    <h2>Design engineers and interface craft</h2>
+    <p class="kicker">Follow these for the detail layer: motion, interaction and the small things that make software feel good.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Who</th><th>Now</th><th>Why follow</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://rauno.me">Rauno Freiberg</a></td><td>Interaction designer working with Vercel; runs Devouring Details</td><td class="why">The reference for interaction detail; also made <a href="https://historyofsoftware.org">History of Software Design</a></td></tr>
+          <tr><td><a href="https://emilkowal.ski/skill">Emil Kowalski</a></td><td>Design engineer at Linear; teaches animations.dev</td><td class="why">Motion and UI polish; he now publishes his taste as an agent skill file</td></tr>
+          <tr><td><a href="https://config.figma.com/fr-fr/london">Dan Hollick</a> <span class="tag">London</span></td><td>London-based design engineer; spoke at Config London 2025 for Tailwind CSS</td><td class="why">Visual explainers on how software and screens actually work</td></tr>
+        </tbody>
+      </table>
+      <p class="empty">No matches in this section.</p>
+    </div>
+    <p class="note">To go wider, Maggie Appleton keeps <a href="https://maggieappleton.com/design-engineers">a running collection of design engineers</a> worth following.</p>
+  </section>
+
+  <section id="ai">
+    <h2>AI-era interfaces and tools for thought</h2>
+    <p class="kicker">These are the people asking what software should become now that models can do the work, rather than how to bolt AI onto today's apps.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Who</th><th>Now</th><th>Why follow</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://maggieappleton.com">Maggie Appleton</a></td><td>Exploring AI and software engineering at GitHub Next</td><td class="why">Illustrated essays on AI, tools for thought and the web; her digital garden is a model of thinking in public</td></tr>
+          <tr><td><a href="https://www.ai.engineer/speakers/geoffrey-litt">Geoffrey Litt</a></td><td>Design engineer at Notion since September 2025; previously led malleable-software research at Ink &amp; Switch</td><td class="why">Malleable software: people reshaping their own tools with AI</td></tr>
+          <tr><td><a href="https://www.ai.engineer/speakers/jason-yuan">Jason Yuan</a></td><td>Founder of Future Lovers, building Hivemind; co-founded New Computer (Dot); ex-Apple</td><td class="why">Art direction and world-building for AI products, and lots of unused concepts shown openly</td></tr>
+          <tr><td><a href="https://rss.com/es/podcasts/diveclub/">Meaghan Choi</a></td><td>Designer on Claude Code at Anthropic</td><td class="why">Designing experiences that barely have a UI, like a command-line agent</td></tr>
+        </tbody>
+      </table>
+      <p class="empty">No matches in this section.</p>
+    </div>
+  </section>
+
+  <section id="product">
+    <h2>Product people</h2>
+    <p class="kicker">For the product side, two interviewers cover most of who matters, plus a few operators worth hearing directly.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Who</th><th>Now</th><th>Why follow</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.lennysnewsletter.com/p/the-design-process-is-dead">Lenny Rachitsky</a></td><td>Lenny's Newsletter and Podcast</td><td class="why">The default record of how top product and design teams work; start with the Jenny Wen and Boris Cherny episodes</td></tr>
+          <tr><td><a href="https://creatoreconomy.so/p/design-to-code-with-cursor-head-of-design-ryo-lu">Peter Yang</a></td><td>Behind the Craft newsletter and podcast</td><td class="why">Screen-share demos of how builders at Cursor and Anthropic actually work</td></tr>
+          <tr><td><a href="https://anthropic.com/news/introducing-anthropic-labs">Mike Krieger</a></td><td>Co-leads Anthropic Labs since January 2026; previously Anthropic's CPO; Instagram co-founder</td><td class="why">A view into how frontier AI products get incubated</td></tr>
+          <tr><td><a href="https://startupintros.com/people/shreyas-doshi">Shreyas Doshi</a></td><td>Independent product advisor; ex-Stripe, Twitter, Google</td><td class="why">Sharp frameworks on product judgment and execution</td></tr>
+        </tbody>
+      </table>
+      <p class="empty">No matches in this section.</p>
+    </div>
+    <p class="note">UK and Irish product voices, including Tom Blomfield and Intercom's leadership, are in the next section.</p>
+  </section>
+
+  <section id="uk-people">
+    <h2>UK and Ireland: people and studios</h2>
+    <p class="kicker">London has a small, tight scene of builders who share their work openly; Soleio and Dan Hollick (above) are also London-based.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Who</th><th>Now</th><th>Why follow</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://interconnected.org/home/2000/02/28/now">Matt Webb</a></td><td>Writes Interconnected weekly; built the Poem/1 AI clock</td><td class="why">A 330-plus-week posting streak on AI agents, hardware and interaction; one of the longest-running UK design blogs</td></tr>
+          <tr><td><a href="https://gitnation.com/person/steve_ruiz/certificates">Steve Ruiz</a></td><td>Founder and CEO, tldraw (London)</td><td class="why">Canvas tools and AI experiments built in public</td></tr>
+          <tr><td><a href="https://raycast.com/thomas">Thomas Paul Mann</a></td><td>Co-founder, Raycast (London)</td><td class="why">Keyboard-first craft from a small, Europe-wide remote team</td></tr>
+          <tr><td><a href="https://awards.zeroheight.com/voting/community-luis">Luis Ouriach</a></td><td>Designer advocate at Figma, London; runs the London Pixels community</td><td class="why">Design systems practice and a well-connected node in the London scene</td></tr>
+          <tr><td><a href="https://adactio.com/journal?start=0">Jeremy Keith</a></td><td>Clearleft; curates UX London; Brighton</td><td class="why">Web-first thinking and a useful sceptic on AI hype; blogs at adactio</td></tr>
+          <tr><td><a href="https://pec.ac.uk/pecpeople/rachel-coldicutt/">Rachel Coldicutt</a></td><td>Founder, Careful Industries and Promising Trouble</td><td class="why">Responsible tech and the social impact of AI, from a UK angle</td></tr>
+          <tr><td><a href="https://sifted.eu/articles/anthropic-monzo-founder-tom-blomfield">Tom Blomfield</a></td><td>Joined Anthropic's compute team in July 2026, on leave from YC; co-founded Monzo and GoCardless</td><td class="why">Candid on AI, startups and the UK ecosystem</td></tr>
+          <tr><td><a href="https://www.designweek.co.uk/the-intercom-design-team/">Emmet Connolly</a></td><td>SVP of design, Intercom (Ireland)</td><td class="why">Intercom's rebuild as an AI-first company around Fin is a live case study in AI product design</td></tr>
+          <tr><td><a href="https://www.designweek.co.uk/the-intercom-design-team/">Paul Adams</a></td><td>Chief product officer, Intercom</td><td class="why">A design lens applied to product and growth</td></tr>
+          <tr><td><a href="https://creativelivesinprogress.com/partners/dixon-baxi">DixonBaxi</a></td><td>London brand agency (Hulu, Netflix, AC Milan)</td><td class="why">Large-scale brand systems for tech and media</td></tr>
+        </tbody>
+      </table>
+      <p class="empty">No matches in this section.</p>
+    </div>
+  </section>
+
+  <section id="uk-communities">
+    <h2>UK communities, meetups and conferences</h2>
+    <p class="kicker">Two dates are still ahead this year: UX Brighton in early November and Leading Design London the week after.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Community</th><th>What it is</th><th>Next</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.bespokecareers.com/events/leading-design-london-2026/">Leading Design London</a></td><td>Clearleft's conference for people leading design teams, in its tenth year, at the Barbican</td><td class="why"><span class="chip">11–12 Nov 2026</span></td></tr>
+          <tr><td><a href="https://cpoclub.com/uncategorized/best-ux-research-conferences/">UX Brighton</a></td><td>One-day UX conference in Brighton</td><td class="why"><span class="chip">6 Nov 2026</span></td></tr>
+          <tr><td><a href="https://2026.uxlondon.com/reasons-to-attend/">UX London</a></td><td>Clearleft's three-day practitioner conference at CodeNode</td><td class="why">Ran 2 to 4 June 2026; next in June 2027</td></tr>
+          <tr><td><a href="https://www.mindtheproduct.com/mtpcon/recap/">#mtpcon London</a></td><td>Mind the Product's flagship product conference; 1,000-plus people at the Barbican in June 2026</td><td class="why">2027 date not yet announced</td></tr>
+          <tr><td><a href="https://www.mindtheproduct.com/about/">ProductTank London</a></td><td>The pub meetup Mind the Product grew from in 2010, now one of 200-plus cities</td><td class="why">Regular meetups</td></tr>
+          <tr><td><a href="https://friends.figma.com/london/">Friends of Figma London</a></td><td>Official Figma user group, about 1,800 members, with a Slack</td><td class="why">Ran a Config watch party in June 2026</td></tr>
+          <tr><td><a href="https://luma.com/hnw44qxn">Design Engineering Night</a></td><td>London meetup for designers who code and engineers who care about design, hosted by Granola</td><td class="why">Recurring; RSVP on Luma needs approval</td></tr>
+          <tr><td><a href="https://lu.ma/yfjxdsfb">Granola Firesides</a></td><td>Q&amp;A evenings at Granola's London office, such as Steve Ruiz of tldraw</td><td class="why">Recurring</td></tr>
+          <tr><td><a href="https://www.brainstation.io/events/design-after-hours-london">Design After-Hours LDN</a></td><td>Seasonal evenings for London design leads and design-minded founders at BrainStation</td><td class="why">Seasonal</td></tr>
+          <tr><td><a href="https://adactio.com/journal?start=0">Web Day Out</a></td><td>Jeremy Keith's one-day web conference in Brighton</td><td class="why">Ran 12 March 2026</td></tr>
+          <tr><td><a href="https://www.wallpaper.com/tags/design-guild-marks">London Design Festival</a></td><td>City-wide design festival, broader than tech</td><td class="why">Ran 12 to 20 September 2026</td></tr>
+        </tbody>
+      </table>
+      <p class="empty">No matches in this section.</p>
+    </div>
+    <p class="note">Figma ran its first <a href="https://config.figma.com/fr-fr/london">Config London</a> in May 2025; in 2026 Config was San Francisco only, so London had watch parties instead.</p>
+  </section>
+
+  <section id="online">
+    <h2>Online and global communities</h2>
+    <p class="kicker">If you join one thing online, make it Dive Club: it is where the people above get interviewed and hired.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Community</th><th>What it is</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://dive-club.beehiiv.com/p/nerd-sniped">Dive Club</a></td><td>Ridd's podcast and newsletter on how top designers work, plus a talent network and a live show, Dive Radio</td><td class="why">The single best feed for the current design conversation; its talent network lists teams like Lovable and Granola</td></tr>
+          <tr><td><a href="https://www.figma.com/blog/the-visual-identity-behind-config-2026/">Config</a></td><td>Figma's annual conference, San Francisco, 23 to 25 June 2026; virtual attendance is free</td><td class="why">Where the year's tooling shifts get announced</td></tr>
+          <tr><td><a href="https://www.youtube.com/watch?v=4u94juYwLLM">Hatch Conference</a></td><td>Berlin design conference; this is Jenny Wen's talk on why designers can't trust the process</td><td class="why">Worth browsing its talk archive</td></tr>
+          <tr><td><a href="https://www.ai.engineer/speakers/geoffrey-litt">AI Engineer</a></td><td>Conference and talk archive for people building with AI, including designers like Geoffrey Litt and Jason Yuan</td><td class="why">Good for the builder end of AI design</td></tr>
+        </tbody>
+      </table>
+      <p class="empty">No matches in this section.</p>
+    </div>
+  </section>
+
+  <section id="reading">
+    <h2>Newsletters, podcasts and publications</h2>
+    <p class="kicker">A weekly diet of Dive Club, Lenny's and Interconnected covers most of the zeitgeist; the rest are for depth or the UK view.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Name</th><th>Format · By</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://dive-club.beehiiv.com/p/nerd-sniped">Dive Club</a></td><td>Podcast and newsletter · Ridd</td><td class="why">Weekly deep dives into how leading designers work</td></tr>
+          <tr><td><a href="https://www.lennysnewsletter.com/p/the-design-process-is-dead">Lenny's Podcast</a></td><td>Podcast and newsletter · Lenny Rachitsky</td><td class="why">Long interviews with product and design leaders</td></tr>
+          <tr><td><a href="https://www.audible.de/podcast/ITEM_NAME/B0GMQ428SS">First of Kind</a></td><td>Podcast · Soleio</td><td class="why">Conversations with design pioneers; season 2 opened with Ryo Lu</td></tr>
+          <tr><td><a href="https://creatoreconomy.so/p/inside-anthropic-claude-cowork-tutorial-jenny-wen">Behind the Craft</a></td><td>Newsletter and podcast · Peter Yang</td><td class="why">Practical tool demos from people building AI products</td></tr>
+          <tr><td><a href="https://interconnected.org/home/2000/02/28/now">Interconnected</a></td><td>Blog · Matt Webb</td><td class="why">Weekly essays on AI, agents and hardware from London</td></tr>
+          <tr><td><a href="https://substack.com/@joulee">The Looking Glass</a></td><td>Newsletter · Julie Zhuo</td><td class="why">Design leadership; 96,000-plus subscribers</td></tr>
+          <tr><td><a href="https://adactio.com/journal?start=0">adactio journal</a></td><td>Blog · Jeremy Keith</td><td class="why">The web-native, UK counterweight</td></tr>
+          <tr><td><a href="https://brianlovin.com/">Design Details</a></td><td>Podcast · Brian Lovin and co-hosts</td><td class="why">Long-running show on design and technology</td></tr>
+          <tr><td><a href="https://www.devouringdetails.com">Devouring Details</a></td><td>Interactive manual · Rauno Freiberg</td><td class="why">Interaction design, taught interactively</td></tr>
+          <tr><td><a href="https://www.designweek.co.uk/the-intercom-design-team/">Design Week</a></td><td>UK trade publication</td><td class="why">UK design industry news, including in-house tech teams</td></tr>
+          <tr><td><a href="https://www.creativereview.co.uk/dixonbaxi-branding-london-venue-koko/">Creative Review</a></td><td>UK publication</td><td class="why">Brand and creative work, strong on London studios</td></tr>
+        </tbody>
+      </table>
+      <p class="empty">No matches in this section.</p>
+    </div>
+  </section>
+
+  <section id="sources">
+    <h2>Sources</h2>
+    <p class="kicker">Every name above links to the page its current role was checked against. The role changes worth knowing about: <a href="https://digg.com/tech/5zxybsaf">Jenny Wen joined Cursor</a> in July 2026; <a href="https://sifted.eu/articles/anthropic-monzo-founder-tom-blomfield">Tom Blomfield joined Anthropic</a> the same month; <a href="https://anthropic.com/news/introducing-anthropic-labs">Mike Krieger moved to Anthropic Labs</a> in January; and <a href="https://dealroom.co/investors/soleio-cuervo/">Soleio is now London-based</a>.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">Design &amp; Product: Who to Follow · Snapshot as of 22 October 2026</div>
+</footer>
+
+<script>
+  (function () {
+    var input = document.querySelector('.search');
+    var sections = Array.prototype.slice.call(document.querySelectorAll('main section'));
+    input.addEventListener('input', function () {
+      var q = input.value.trim().toLowerCase();
+      sections.forEach(function (sec) {
+        var rows = sec.querySelectorAll('tbody tr');
+        if (!rows.length) return;
+        var shown = 0;
+        rows.forEach(function (tr) {
+          var match = !q || tr.textContent.toLowerCase().indexOf(q) !== -1;
+          tr.classList.toggle('hidden', !match);
+          if (match) shown++;
+        });
+        var empty = sec.querySelector('.empty');
+        if (empty) empty.style.display = shown ? 'none' : 'block';
+      });
+    });
+  })();
+</script>
+</body>
+</html>
